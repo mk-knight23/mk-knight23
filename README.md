@@ -141,6 +141,13 @@ https://04-portfolio-site-v1.vercel.app
 
 https://05-portfolio-personal-site-nextjs.vercel.app
 
+https://06-portfolio-senior-frontend-zu55pfa24-mkknights-projects.vercel.app
+
+https://07-portfolio-indie-saas.vercel.app
+
+https://08-portfolio-personal-demo.vercel.app
+
+
 <br>  
 
 
