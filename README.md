@@ -131,35 +131,94 @@
 </p>
 
 <br>
-https://01-profile-readme.vercel.app
+# Portfolio Live Links
 
-https://02-repos-browser.vercel.app
+All 8 portfolio repositories deployed across multiple cloud platforms.
 
-https://mk-knight23.github.io/03-portfolio-frontend
+---
 
-https://04-portfolio-site-v1.vercel.app
+## 01-portfolio-devtools
 
-https://05-portfolio-personal-site-nextjs.vercel.app
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://01-portfolio-devtools.vercel.app |
+| **Netlify** | https://01-portfolio-devtools.netlify.app |
+| **Render** | https://zero1-portfolio-devtools.onrender.com |
 
-https://06-portfolio-senior-frontend-zu55pfa24-mkknights-projects.vercel.app
+---
 
-https://07-portfolio-indie-saas.vercel.app
+## 02-portfolio-fullstack
 
-https://08-portfolio-personal-demo.vercel.app
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://02-portfolio-fullstack.vercel.app |
+| **Netlify** | https://02-portfolio-fullstack.netlify.app |
+| **Render** | https://zero2-portfolio-fullstack.onrender.com |
 
-Games Websites 
+---
 
-https://25-game-js-car-racing.vercel.app
+## 03-portfolio-frontend
 
-https://mk-knight23.github.io/26-game-js-mini-games
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://03-portfolio-frontend.vercel.app |
+| **Netlify** | https://03-portfolio-frontend.netlify.app |
+| **Render** | https://zero3-portfolio-frontend.onrender.com |
 
-27, 28, 29 , Not Publish , No links 
+---
 
-https://mk-knight23.github.io/30-game-js-dragon
+## 04-portfolio-backend
 
-https://mk-knight23.github.io/31-game-maze-puzzle
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://04-portfolio-backend.vercel.app |
+| **Netlify** | https://04-portfolio-backend.netlify.app |
+| **Render** | https://zero4-portfolio-backend.onrender.com |
 
-32 , 33, 34 , Not Publish , No links 
+---
+
+## 05-portfolio-frontend-ai
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://05-portfolio-frontend-ai.vercel.app |
+| **Netlify** | https://05-portfolio-frontend-ai.netlify.app |
+| **Render** | https://zero5-portfolio-frontend-ai.onrender.com |
+
+---
+
+## 06-portfolio-senior-frontend
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://06-portfolio-senior-frontend.vercel.app |
+| **Netlify** | https://06-portfolio-senior-frontend.netlify.app |
+| **Render** | https://zero6-portfolio-senior-frontend.onrender.com |
+
+---
+
+## 07-portfolio-indie-saas
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://07-portfolio-indie-saas.vercel.app |
+| **Netlify** | https://07-portfolio-indie-saas.netlify.app |
+| **Render** | https://zero7-portfolio-indie-saas.onrender.com |
+
+---
+
+## 08-portfolio-ai-automation
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://08-portfolio-ai-automation.vercel.app |
+| **Netlify** | https://08-portfolio-ai-automation.netlify.app |
+| **Render** | https://zero8-portfolio-ai-automation.onrender.com |
+
+---
+
+*Last Updated: February 2, 2026*
+
 <br>  
 
 
