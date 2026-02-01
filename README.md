@@ -313,6 +313,104 @@ All 10 game repositories (25-34) deployed across Vercel and Render.
 
 ---
 
+# Tools Live Links
+
+All 10 tool repositories (35-44) deployed across Vercel and Render.
+*Note: Tools 35 and 36 are Vercel-only due to Render repository access issues.*
+
+---
+
+## 35-tool-quizflow-pdf-quiz-generator
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://35-tool-quizflow-pdf-quiz-generator.vercel.app |
+| **Render** | *Skipped (Repo Access Issue)* |
+
+---
+
+## 36-tool-vaultpass-secure-password-generator
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://36-tool-vaultpass-secure-password-g.vercel.app |
+| **Render** | *Skipped (Repo Access Issue)* |
+
+---
+
+## 37-tool-text-to-speech
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://37-tool-text-to-speech.vercel.app |
+| **Render** | https://three7-tool-text-to-speech.onrender.com |
+
+---
+
+## 38-tool-firebase-file-uploader
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://38-tool-firebase-file-uploader.vercel.app |
+| **Render** | https://three8-tool-firebase-file-uploader.onrender.com |
+
+---
+
+## 39-tool-firebase-image-uploader
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://39-tool-firebase-image-uploader.vercel.app |
+| **Render** | https://three9-tool-firebase-image-uploader.onrender.com |
+
+---
+
+## 40-tool-react-image-uploader
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://40-tool-react-image-uploader.vercel.app |
+| **Render** | https://four0-tool-react-image-uploader.onrender.com |
+
+---
+
+## 41-tool-firebase-auth
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://41-tool-firebase-auth.vercel.app |
+| **Render** | https://four1-tool-firebase-auth.onrender.com |
+
+---
+
+## 42-tool-facebook-login-ui
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://42-tool-facebook-login-ui.vercel.app |
+| **Render** | https://four2-tool-facebook-login-ui.onrender.com |
+
+---
+
+## 43-tool-agency-website-clone
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://43-tool-agency-website-clone.vercel.app |
+| **Render** | https://four3-tool-agency-website-clone.onrender.com |
+
+---
+
+## 44-tool-github-desktop-guide
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://44-tool-github-desktop-guide.vercel.app |
+| **Render** | https://four4-tool-github-desktop-guide.onrender.com |
+
+---
+
+
 
 
 <br>  
