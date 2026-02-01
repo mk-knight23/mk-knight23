@@ -217,7 +217,103 @@ All 8 portfolio repositories deployed across multiple cloud platforms.
 
 ---
 
-*Last Updated: February 2, 2026*
+# Games Live Links
+
+All 10 game repositories (25-34) deployed across Vercel and Render.
+
+---
+
+## 25-game-neon-highway
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://25-game-neon-highway.vercel.app |
+| **Render** | https://two5-game-neon-highway.onrender.com |
+
+---
+
+## 26-game-retro-vault
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://26-game-retro-vault.vercel.app |
+| **Render** | https://two6-game-retro-vault.onrender.com |
+
+---
+
+## 27-game-world-net
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://27-game-world-net.vercel.app |
+| **Render** | https://two7-game-world-net.onrender.com |
+
+---
+
+## 28-game-squid-net
+
+| Platform | URL |
+|----------|-----|
+| **Render** | https://two8-game-squid-net.onrender.com |
+| **Vercel** | *Build Error - See Render Deployment* |
+
+---
+
+## 29-game-snake-net
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://29-game-snake-net.vercel.app |
+| **Render** | https://two9-game-snake-net.onrender.com |
+
+---
+
+## 30-game-dragon-surge
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://30-game-dragon-surge.vercel.app |
+| **Render** | https://three0-game-dragon-surge.onrender.com |
+
+---
+
+## 31-game-maze-net
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://31-game-maze-net.vercel.app |
+| **Render** | https://three1-game-maze-net.onrender.com |
+
+---
+
+## 32-game-flux-arcade
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://32-game-flux-arcade.vercel.app |
+| **Render** | https://three2-game-flux-arcade.onrender.com |
+
+---
+
+## 33-game-aptitude-nexus
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://33-game-aptitude-nexus.vercel.app |
+| **Render** | https://three3-game-aptitude-nexus.onrender.com |
+
+---
+
+## 34-game-sigma-nexus
+
+| Platform | URL |
+|----------|-----|
+| **Vercel** | https://34-game-sigma-nexus.vercel.app |
+| **Render** | https://three4-game-sigma-nexus.onrender.com |
+
+---
+
+
 
 <br>  
 
