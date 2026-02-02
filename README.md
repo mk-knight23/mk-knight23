@@ -217,6 +217,21 @@ All 8 portfolio repositories deployed across multiple cloud platforms.
 
 ---
 
+### ✅ FULLY DEPLOYED (Vercel Live)
+
+| # | Repository | GitHub URL | Vercel URL | Render Status |
+|---|------------|-----------|-----------|---------------|
+| 09 | Web Geographic Explorer | [github.com/mk-knight23/09-web-geographic-explorer](https://github.com/mk-knight23/09-web-geographic-explorer) | [09-web-geographic-explorer.vercel.app](https://09-web-geographic-explorer.vercel.app) | 📋 Blueprint Ready |
+| 10 | Web Time Display | [github.com/mk-knight23/10-web-time-display](https://github.com/mk-knight23/10-web-time-display) | [10-web-time-display.vercel.app](https://10-web-time-display.vercel.app) | 📋 Blueprint Ready |
+| 11 | Web Keyboard Practice | [github.com/mk-knight23/11-web-keyboard-practice](https://github.com/mk-knight23/11-web-keyboard-practice) | [11-web-keyboard-practice.vercel.app](https://11-web-keyboard-practice.vercel.app) | 📋 Blueprint Ready |
+| 12 | Web Editorial Blog | [github.com/mk-knight23/12-web-editorial-blog](https://github.com/mk-knight23/12-web-editorial-blog) | [12-web-editorial-blog.vercel.app](https://12-web-editorial-blog.vercel.app) | 📋 Blueprint Ready |
+| 13 | Web Brutalist Content | [github.com/mk-knight23/13-web-brutalist-content](https://github.com/mk-knight23/13-web-brutalist-content) | [13-web-brutalist-content.vercel.app](https://13-web-brutalist-content.vercel.app) | 📋 Blueprint Ready |
+| 14 | Web AI Research | [github.com/mk-knight23/14-web-ai-research](https://github.com/mk-knight23/14-web-ai-research) | [14-web-ai-research.vercel.app](https://14-web-ai-research.vercel.app) | 📋 Blueprint Ready |
+| 15 | Web Luxury Boutique | [github.com/mk-knight23/15-web-luxury-boutique](https://github.com/mk-knight23/15-web-luxury-boutique) | [15-web-luxury-boutique.vercel.app](https://15-web-luxury-boutique.vercel.app) | 📋 Blueprint Ready |
+| 16 | Web Editorial Layouts | [github.com/mk-knight23/16-web-editorial-layouts](https://github.com/mk-knight23/16-web-editorial-layouts) | [16-web-editorial-layouts.vercel.app](https://16-web-editorial-layouts.vercel.app) | 📋 Blueprint Ready |
+
+
+
 # Games Live Links
 
 All 10 game repositories (25-34) deployed across Vercel and Render.
