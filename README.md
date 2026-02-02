@@ -131,89 +131,19 @@
 </p>
 
 <br>
-# Portfolio Live Links
 
-All 8 portfolio repositories deployed across multiple cloud platforms.
+## 📊 Complete Deployment Table
 
----
-
-## 01-portfolio-devtools
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://01-portfolio-devtools.vercel.app |
-| **Netlify** | https://01-portfolio-devtools.netlify.app |
-| **Render** | https://zero1-portfolio-devtools.onrender.com |
-
----
-
-## 02-portfolio-fullstack
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://02-portfolio-fullstack.vercel.app |
-| **Netlify** | https://02-portfolio-fullstack.netlify.app |
-| **Render** | https://zero2-portfolio-fullstack.onrender.com |
-
----
-
-## 03-portfolio-frontend
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://03-portfolio-frontend.vercel.app |
-| **Netlify** | https://03-portfolio-frontend.netlify.app |
-| **Render** | https://zero3-portfolio-frontend.onrender.com |
-
----
-
-## 04-portfolio-backend
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://04-portfolio-backend.vercel.app |
-| **Netlify** | https://04-portfolio-backend.netlify.app |
-| **Render** | https://zero4-portfolio-backend.onrender.com |
-
----
-
-## 05-portfolio-frontend-ai
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://05-portfolio-frontend-ai.vercel.app |
-| **Netlify** | https://05-portfolio-frontend-ai.netlify.app |
-| **Render** | https://zero5-portfolio-frontend-ai.onrender.com |
-
----
-
-## 06-portfolio-senior-frontend
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://06-portfolio-senior-frontend.vercel.app |
-| **Netlify** | https://06-portfolio-senior-frontend.netlify.app |
-| **Render** | https://zero6-portfolio-senior-frontend.onrender.com |
-
----
-
-## 07-portfolio-indie-saas
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://07-portfolio-indie-saas.vercel.app |
-| **Netlify** | https://07-portfolio-indie-saas.netlify.app |
-| **Render** | https://zero7-portfolio-indie-saas.onrender.com |
-
----
-
-## 08-portfolio-ai-automation
-
-| Platform | URL |
-|----------|-----|
-| **Vercel** | https://08-portfolio-ai-automation.vercel.app |
-| **Netlify** | https://08-portfolio-ai-automation.netlify.app |
-| **Render** | https://zero8-portfolio-ai-automation.onrender.com |
+| # | Portfolio Name | Role | Netlify | Cloudflare | Vercel | GitHub |
+|---|----------------|------|---------|------------|--------|--------|
+| 01 | `01-portfolio-devtools` | DevTools Engineer | [Live](https://01-portfolio-devtools.netlify.app) | [Live](https://01-devtools.pages.dev) | [Live](https://01-portfolio-devtools.vercel.app) | [Repo](https://github.com/mk-knight23/01-portfolio-devtools) |
+| 02 | `02-portfolio-fullstack` | Full Stack Developer | [Live](https://02-portfolio-fullstack.netlify.app) | [Live](https://02-fullstack.pages.dev) | [Live](https://02-fullstack.vercel.app) | [Repo](https://github.com/mk-knight23/02-portfolio-fullstack) |
+| 03 | `03-portfolio-frontend` | Frontend Developer | [Live](https://03-portfolio-frontend.netlify.app) | [Live](https://03-frontend.pages.dev) | [Live](https://03-frontend.vercel.app) | [Repo](https://github.com/mk-knight23/03-portfolio-frontend) |
+| 04 | `04-portfolio-backend` | Backend Developer | [Live](https://04-portfolio-backend.netlify.app) | [Live](https://04-backend.pages.dev) | [Live](https://04-backend.vercel.app) | [Repo](https://github.com/mk-knight23/04-portfolio-backend) |
+| 05 | `05-portfolio-frontend-ai` | Frontend AI Engineer | [Live](https://05-portfolio-frontend-ai.netlify.app) | [Live](https://05-frontend-ai.pages.dev) | [Live](https://05-frontend-ai.vercel.app) | [Repo](https://github.com/mk-knight23/05-portfolio-frontend-ai) |
+| 06 | `06-portfolio-senior-frontend` | Senior Frontend Developer | [Live](https://06-portfolio-senior-frontend.netlify.app) | [Live](https://06-senior-frontend.pages.dev) | [Live](https://06-portfolio-senior-frontend.vercel.app) | [Repo](https://github.com/mk-knight23/06-portfolio-senior-frontend) |
+| 07 | `07-portfolio-indie-saas` | Indie SaaS Builder | [Live](https://07-portfolio-indie-saas.netlify.app) | [Live](https://07-indie-saas.pages.dev) | [Live](https://07-portfolio-indie-saas.vercel.app) | [Repo](https://github.com/mk-knight23/07-portfolio-indie-saas) |
+| 08 | `08-portfolio-ai-automation` | AI Automation Engineer | [Live](https://08-portfolio-ai-automation.netlify.app) | [Live](https://08-ai-automation.pages.dev) | [Live](https://08-ai-automation.vercel.app) | [Repo](https://github.com/mk-knight23/08-portfolio-ai-automation) |
 
 ---
 
