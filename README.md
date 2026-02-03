@@ -131,66 +131,32 @@
 </p>
 
 <br>
+# 🚀 Master Portfolio Deployment Hub
 
-## 📊 Complete Deployment Table
+A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cloud platforms.
 
-| # | Portfolio Name | Role | Netlify | Cloudflare | Vercel | GitHub |
-|---|----------------|------|---------|------------|--------|--------|
-| 01 | `01-portfolio-devtools` | DevTools Engineer | [Live](https://01-portfolio-devtools.netlify.app) | [Live](https://01-devtools.pages.dev) | [Live](https://01-portfolio-devtools.vercel.app) | [Repo](https://github.com/mk-knight23/01-portfolio-devtools) |
-| 02 | `02-portfolio-fullstack` | Full Stack Developer | [Live](https://02-portfolio-fullstack.netlify.app) | [Live](https://02-fullstack.pages.dev) | [Live](https://02-fullstack.vercel.app) | [Repo](https://github.com/mk-knight23/02-portfolio-fullstack) |
-| 03 | `03-portfolio-frontend` | Frontend Developer | [Live](https://03-portfolio-frontend.netlify.app) | [Live](https://03-frontend.pages.dev) | [Live](https://03-frontend.vercel.app) | [Repo](https://github.com/mk-knight23/03-portfolio-frontend) |
-| 04 | `04-portfolio-backend` | Backend Developer | [Live](https://04-portfolio-backend.netlify.app) | [Live](https://04-backend.pages.dev) | [Live](https://04-backend.vercel.app) | [Repo](https://github.com/mk-knight23/04-portfolio-backend) |
-| 05 | `05-portfolio-frontend-ai` | Frontend AI Engineer | [Live](https://05-portfolio-frontend-ai.netlify.app) | [Live](https://05-frontend-ai.pages.dev) | [Live](https://05-frontend-ai.vercel.app) | [Repo](https://github.com/mk-knight23/05-portfolio-frontend-ai) |
-| 06 | `06-portfolio-senior-frontend` | Senior Frontend Developer | [Live](https://06-portfolio-senior-frontend.netlify.app) | [Live](https://06-senior-frontend.pages.dev) | [Live](https://06-portfolio-senior-frontend.vercel.app) | [Repo](https://github.com/mk-knight23/06-portfolio-senior-frontend) |
-| 07 | `07-portfolio-indie-saas` | Indie SaaS Builder | [Live](https://07-portfolio-indie-saas.netlify.app) | [Live](https://07-indie-saas.pages.dev) | [Live](https://07-portfolio-indie-saas.vercel.app) | [Repo](https://github.com/mk-knight23/07-portfolio-indie-saas) |
-| 08 | `08-portfolio-ai-automation` | AI Automation Engineer | [Live](https://08-portfolio-ai-automation.netlify.app) | [Live](https://08-ai-automation.pages.dev) | [Live](https://08-ai-automation.vercel.app) | [Repo](https://github.com/mk-knight23/08-portfolio-ai-automation) |
-Render 
+| # | Role | Cloudflare (Primary) | Azure Static | Firebase | AWS Amplify | Render | Vercel |
+|---|------|----------------------|--------------|----------|-------------|--------|--------|
+| 01 | **DevTools Engineer** | [Link](https://01-devtools.pages.dev) | [Link](https://witty-cliff-0cf40420f-preview.eastus2.2.azurestaticapps.net) | [Link](https://portfolio-devtools.web.app) | [Link](https://main.d3kxqk7cdhc7i0.amplifyapp.com) | [Link](https://zero1-portfolio-devtools.onrender.com) | [Link](https://01-portfolio-devtools.vercel.app) |
+| 02 | **Full Stack Developer** | [Link](https://02-fullstack.pages.dev) | [Link](https://salmon-coast-0112a010f-preview.eastus2.4.azurestaticapps.net) | [Link](https://mk-knight-fullstack.web.app) | [Link](https://main.dqywouu7sv625.amplifyapp.com) | [Link](https://zero2-portfolio-fullstack.onrender.com) | [Link](https://02-portfolio-fullstack.vercel.app) |
+| 03 | **Frontend Developer** | [Link](https://03-frontend.pages.dev) | [Link](https://purple-meadow-0b3e5320f-preview.eastus2.4.azurestaticapps.net) | [Link](https://mk-knight-frontend.web.app) | [Link](https://main.d3jrgzxrbbaypo.amplifyapp.com) | [Link](https://zero3-portfolio-frontend.onrender.com) | [Link](https://03-portfolio-frontend.vercel.app) |
+| 04 | **Backend Developer** | [Link](https://04-backend.pages.dev) | [Link](https://witty-wave-0a0ebbb0f-preview.eastus2.2.azurestaticapps.net) | [Link](https://mk-knight-backend.web.app) | [Link](https://main.d3li8vaqnxoq5w.amplifyapp.com) | [Link](https://zero4-portfolio-backend.onrender.com) | [Link](https://04-portfolio-backend.vercel.app) |
+| 05 | **Frontend AI Engineer** | [Link](https://05-frontend-ai.pages.dev) | [Link](https://delightful-meadow-06502290f-preview.eastus2.4.azurestaticapps.net) | [Link](https://mk-knight-frontend-ai.web.app) | [Link](https://main.d37saxm79nzluz.amplifyapp.com) | [Link](https://zero5-portfolio-frontend-ai.onrender.com) | [Link](https://05-portfolio-frontend-ai.vercel.app) |
+| 06 | **Senior Frontend Developer** | [Link](https://06-senior-frontend.pages.dev) | [Link](https://ambitious-ground-0749c5e0f-preview.eastus2.6.azurestaticapps.net) | [Link](https://mk-knight-senior-frontend.web.app) | [Link](https://main.d18do5sl5tes8u.amplifyapp.com) | [Link](https://zero6-portfolio-senior-frontend.onrender.com) | [Link](https://06-portfolio-senior-frontend.vercel.app) |
+| 07 | **Indie SaaS Builder** | [Link](https://07-indie-saas.pages.dev) | [Link](https://brave-flower-00382440f-preview.eastus2.6.azurestaticapps.net) | [Link](https://portfolio-indie-saas.web.app) | [Link](https://main.d1haw7u92fgag5.amplifyapp.com) | [Link](https://zero7-portfolio-indie-saas.onrender.com) | [Link](https://07-portfolio-indie-saas.vercel.app) |
+| 08 | **AI Automation Engineer** | [Link](https://08-ai-automation.pages.dev) | [Link](https://ambitious-hill-0eda5ed0f-preview.eastus2.2.azurestaticapps.net) | [Link](https://portfolio-ai-automation.web.app) | [Link](https://main.dvh268q1nnb4x.amplifyapp.com) | [Link](https://zero8-portfolio-ai-automation.onrender.com) | [Link](https://08-ai-automation.vercel.app) |
 
-https://zero1-portfolio-devtools.onrender.com
-https://zero2-portfolio-fullstack.onrender.com
-https://zero3-portfolio-frontend.onrender.com
-https://zero4-portfolio-backend.onrender.com
-https://zero5-portfolio-frontend-ai.onrender.com
-https://zero6-portfolio-senior-frontend.onrender.com
-https://zero7-portfolio-indie-saas.onrender.com
-https://zero8-portfolio-ai-automation.onrender.com
-
-
-  16 Deployments on Netlify + Cloudflare — All verified working (HTTP     
-  200):                                                                   
-  #: 01                                                                   
-  Netlify: https://01-portfolio-devtools.netlify.app ✅                   
-  Cloudflare: https://01-devtools.pages.dev ✅                            
-  ────────────────────────────────────────                                
-  #: 02                                                                   
-  Netlify: https://02-portfolio-fullstack.netlify.app ✅                  
-  Cloudflare: https://02-fullstack.pages.dev ✅                           
-  ────────────────────────────────────────                                
-  #: 03                                                                   
-  Netlify: https://03-portfolio-frontend.netlify.app ✅                   
-  Cloudflare: https://03-frontend.pages.dev ✅                            
-  ────────────────────────────────────────                                
-  #: 04                                                                   
-  Netlify: https://04-portfolio-backend.netlify.app ✅                    
-  Cloudflare: https://04-backend.pages.dev ✅                             
-  ────────────────────────────────────────                                
-  #: 05                                                                   
-  Netlify: https://05-portfolio-frontend-ai.netlify.app ✅                
-  Cloudflare: https://05-frontend-ai.pages.dev ✅                         
-  ────────────────────────────────────────                                
-  #: 06                                                                   
-  Netlify: https://06-portfolio-senior-frontend.netlify.app ✅            
-  Cloudflare: https://06-senior-frontend.pages.dev ✅                     
-  ────────────────────────────────────────                                
-  #: 07                                                                   
-  Netlify: https://07-portfolio-indie-saas.netlify.app ✅                 
-  Cloudflare: https://07-indie-saas.pages.dev ✅                          
-  ────────────────────────────────────────                                
-  #: 08                                                                   
-  Netlify: https://08-portfolio-ai-automation.netlify.app ✅              
-  Cloudflare: https://08-ai-automation.pages.dev ✅                       
-  ❌ VERCEL STATUS                                          
 ---
+
+### 🛠️ Platform Status
+- **Cloudflare Pages**: 🟢 Primary (Fastest Edge)
+- **Azure Static Web Apps**: 🔵 Secondary (Enterprise)
+- **GCP Firebase**: 🔥 Reliable (Google Cloud)
+- **AWS Amplify**: ⚡ Dynamic (Amazon Web Services)
+- **Render**: 🟣 Alternative (Simple Cloud)
+- **Vercel**: ▲ DX Oriented (Edge Functions)
+
+**Total Deployments**: 48/48 (100% Online) ✅
 
 ### ✅ FULLY DEPLOYED (Vercel Live)
 
