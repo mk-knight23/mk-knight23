@@ -144,7 +144,52 @@
 | 06 | `06-portfolio-senior-frontend` | Senior Frontend Developer | [Live](https://06-portfolio-senior-frontend.netlify.app) | [Live](https://06-senior-frontend.pages.dev) | [Live](https://06-portfolio-senior-frontend.vercel.app) | [Repo](https://github.com/mk-knight23/06-portfolio-senior-frontend) |
 | 07 | `07-portfolio-indie-saas` | Indie SaaS Builder | [Live](https://07-portfolio-indie-saas.netlify.app) | [Live](https://07-indie-saas.pages.dev) | [Live](https://07-portfolio-indie-saas.vercel.app) | [Repo](https://github.com/mk-knight23/07-portfolio-indie-saas) |
 | 08 | `08-portfolio-ai-automation` | AI Automation Engineer | [Live](https://08-portfolio-ai-automation.netlify.app) | [Live](https://08-ai-automation.pages.dev) | [Live](https://08-ai-automation.vercel.app) | [Repo](https://github.com/mk-knight23/08-portfolio-ai-automation) |
+Render 
 
+https://zero1-portfolio-devtools.onrender.com
+https://zero2-portfolio-fullstack.onrender.com
+https://zero3-portfolio-frontend.onrender.com
+https://zero4-portfolio-backend.onrender.com
+https://zero5-portfolio-frontend-ai.onrender.com
+https://zero6-portfolio-senior-frontend.onrender.com
+https://zero7-portfolio-indie-saas.onrender.com
+https://zero8-portfolio-ai-automation.onrender.com
+
+
+  16 Deployments on Netlify + Cloudflare — All verified working (HTTP     
+  200):                                                                   
+  #: 01                                                                   
+  Netlify: https://01-portfolio-devtools.netlify.app ✅                   
+  Cloudflare: https://01-devtools.pages.dev ✅                            
+  ────────────────────────────────────────                                
+  #: 02                                                                   
+  Netlify: https://02-portfolio-fullstack.netlify.app ✅                  
+  Cloudflare: https://02-fullstack.pages.dev ✅                           
+  ────────────────────────────────────────                                
+  #: 03                                                                   
+  Netlify: https://03-portfolio-frontend.netlify.app ✅                   
+  Cloudflare: https://03-frontend.pages.dev ✅                            
+  ────────────────────────────────────────                                
+  #: 04                                                                   
+  Netlify: https://04-portfolio-backend.netlify.app ✅                    
+  Cloudflare: https://04-backend.pages.dev ✅                             
+  ────────────────────────────────────────                                
+  #: 05                                                                   
+  Netlify: https://05-portfolio-frontend-ai.netlify.app ✅                
+  Cloudflare: https://05-frontend-ai.pages.dev ✅                         
+  ────────────────────────────────────────                                
+  #: 06                                                                   
+  Netlify: https://06-portfolio-senior-frontend.netlify.app ✅            
+  Cloudflare: https://06-senior-frontend.pages.dev ✅                     
+  ────────────────────────────────────────                                
+  #: 07                                                                   
+  Netlify: https://07-portfolio-indie-saas.netlify.app ✅                 
+  Cloudflare: https://07-indie-saas.pages.dev ✅                          
+  ────────────────────────────────────────                                
+  #: 08                                                                   
+  Netlify: https://08-portfolio-ai-automation.netlify.app ✅              
+  Cloudflare: https://08-ai-automation.pages.dev ✅                       
+  ❌ VERCEL STATUS                                          
 ---
 
 ### ✅ FULLY DEPLOYED (Vercel Live)
