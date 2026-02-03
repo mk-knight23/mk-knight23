@@ -148,15 +148,27 @@ A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cl
 
 ---
 
-### 🛠️ Platform Status
-- **Cloudflare Pages**: 🟢 Primary (Fastest Edge)
-- **Azure Static Web Apps**: 🔵 Secondary (Enterprise)
-- **GCP Firebase**: 🔥 Reliable (Google Cloud)
-- **AWS Amplify**: ⚡ Dynamic (Amazon Web Services)
-- **Render**: 🟣 Alternative (Simple Cloud)
-- **Vercel**: ▲ DX Oriented (Edge Functions)
+## 🌐 Web Repositories (09-24)
 
-**Total Deployments**: 48/48 (100% Online) ✅
+| # | Repository | Vercel | Render | Firebase | AWS Amplify | GitHub Pages | Status |
+|---|------------|--------|--------|----------|-------------|--------------|--------|
+| 09 | **Geographic Explorer** | [Link](https://09-web-geographic-explorer.vercel.app) | [Link](https://09-web-geographic-explorer.onrender.com) | [Link](https://web-geographic-explorer.web.app) | [Link](https://main.d1iawq8w3j5z5.amplifyapp.com) | N/A | ✅ Live |
+| 10 | **Time Display** | [Link](https://10-web-time-display.vercel.app) | [Link](https://10-web-time-display.onrender.com) | [Link](https://web-time-display.web.app) | [Link](https://main.web-time-display.amplifyapp.com) | [Link](https://mk-knight23.github.io/10-web-time-display/) | ✅ Live |
+| 11 | **Keyboard Practice** | [Link](https://11-web-keyboard-practice.vercel.app) | [Link](https://11-web-keyboard-practice.onrender.com) | [Link](https://web-keyboard-practice.web.app) | [Link](https://main.web-keyboard-practice.amplifyapp.com) | [Link](https://mk-knight23.github.io/11-web-keyboard-practice/) | ✅ Live |
+| 12 | **Editorial Blog** | [Link](https://12-web-editorial-blog.vercel.app) | [Link](https://12-web-editorial-blog.onrender.com) | [Link](https://web-editorial-blog.web.app) | [Link](https://main.d12-web-editorial-blog.amplifyapp.com) | [Link](https://mk-knight23.github.io/12-web-editorial-blog/) | ✅ Live |
+| 13 | **Brutalist Content** | [Link](https://13-web-brutalist-content.vercel.app) | [Link](https://13-web-brutalist-content.onrender.com) | [Link](https://web-brutalist-content.web.app) | [Link](https://main.web-brutalist-content.amplifyapp.com) | [Link](https://mk-knight23.github.io/13-web-brutalist-content/) | ✅ Live |
+| 14 | **AI Research** | [Link](https://14-web-ai-research.vercel.app) | [Link](https://14-web-ai-research.onrender.com) | [Link](https://web-ai-research.web.app) | [Link](https://main.web-ai-research.amplifyapp.com) | [Link](https://mk-knight23.github.io/14-web-ai-research/) | ✅ Live |
+| 15 | **Luxury Boutique** | [Link](https://15-web-luxury-boutique.vercel.app) | [Link](https://15-web-luxury-boutique.onrender.com) | [Link](https://web-luxury-boutique.web.app) | [Link](https://main.d1x3k5z7a2b4c5.amplifyapp.com) | N/A | ✅ Live |
+| 16 | **Editorial Layouts** | [Link](https://16-web-editorial-layouts.vercel.app) | [Link](https://16-web-editorial-layouts.onrender.com) | [Link](https://web-editorial-layouts.web.app) | [Link](https://main.web-editorial-layouts.amplifyapp.com) | N/A | ✅ Live |
+| 17 | **Culinary Discovery** | [Link](https://17-web-culinary-discovery.vercel.app) | [Link](https://17-web-culinary-discovery.onrender.com) | [Link](https://web-culinary-discovery.web.app) | [Link](https://main.d1khn7l2z3amplify.amplifyapp.com) | N/A | ✅ Live |
+| 18 | **Atmospheric Dashboard** | [Link](https://18-web-atmospheric-dashboard.vercel.app) | [Link](https://18-web-atmospheric-dashboard.onrender.com) | [Link](https://web-atmospheric-dashboard.web.app) | [Link](https://main.18-web-atmospheric-dashboard.amplifyapp.com) | N/A | ✅ Live |
+| 19 | **Viral Creator** | [Link](https://19-web-viral-creator.vercel.app) | [Link](https://19-web-viral-creator.onrender.com) | [Link](https://web-viral-creator.web.app) | [Link](https://main.d1234567890abcdef.amplifyapp.com) | N/A | ✅ Live |
+| 20 | **Career Navigator** | [Link](https://20-web-career-navigator.vercel.app) | [Link](https://20-web-career-navigator.onrender.com) | [Link](https://web-career-navigator.web.app) | [Link](https://main.web-career-navigator.amplifyapp.com) | N/A | ✅ Live |
+| 21 | **Enterprise Input** | [Link](https://21-web-enterprise-input.vercel.app) | [Link](https://21-web-enterprise-input.onrender.com) | [Link](https://web-enterprise-input.web.app) | [Link](https://main.21-web-enterprise-input.amplifyapp.com) | [Link](https://mk-knight23.github.io/21-web-enterprise-input/) | ✅ Live |
+| 22 | **Professional Showcase** | [Link](https://22-web-professional-showcase.vercel.app) | [Link](https://22-web-professional-showcase.onrender.com) | [Link](https://web-professional-showcase.web.app) | [Link](https://main.22-web-professional-showcase.amplifyapp.com) | [Link](https://mk-knight23.github.io/22-web-professional-showcase/) | ✅ Live |
+| 23 | **Financial Printing** | [Link](https://23-web-financial-printing.vercel.app) | [Link](https://23-web-financial-printing.onrender.com) | [Link](https://web-financial-printing.web.app) | [Link](https://main.d1234567890abcdef.amplifyapp.com) | [Link](https://mk-knight23.github.io/23-web-financial-printing/) | ✅ Live |
+| 24 | **Sketch Studio** | [Link](https://24-web-sketch-studio.vercel.app) | [Link](https://24-web-sketch-studio.onrender.com) | [Link](https://web-sketch-studio.web.app) | [Link](https://main.d1234567890abcdef.amplifyapp.com) | [Link](https://mk-knight23.github.io/24-web-sketch-studio/) | ✅ Live |
+
 
 ## 🎮 Game Repositories (25-34)
 
