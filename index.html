@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazi Musharraf | Multi-Portfolio Hub</title>
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            --primary: #0f172a; /* Deep Navy */
+            --accent: #2563eb;  /* Electric Blue */
+            --bg-app: #f1f5f9;
+            --bg-sidebar: #020617;
+            --text-sidebar: #94a3b8;
+            --text-sidebar-active: #ffffff;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-light: #475569;
+            --border: #e2e8f0;
+            --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+            --sidebar-width: 320px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-app);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* --- SIDEBAR --- */
+        aside {
+            width: var(--sidebar-width);
+            background-color: var(--bg-sidebar);
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #1e293b;
+            flex-shrink: 0;
+            overflow-y: auto;
+        }
+
+        .profile-mini {
+            padding: 25px;
+            border-bottom: 1px solid #1e293b;
+            color: white;
+        }
+
+        .profile-mini h1 { 
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            margin-bottom: 4px; 
+            letter-spacing: 0.5px;
+        }
+        .profile-mini p { font-size: 0.85rem; color: var(--text-sidebar); font-weight: 500; }
+        .profile-mini .meta { margin-top: 12px; font-size: 0.75rem; color: #64748b; border-top: 1px solid #1e293b; padding-top: 12px; line-height: 1.4; }
+
+        nav { flex: 1; padding: 10px 0; }
+        
+        .nav-item {
+            padding: 14px 20px;
+            cursor: pointer;
+            color: var(--text-sidebar);
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-item:hover { background-color: rgba(255,255,255,0.05); color: #e2e8f0; }
+        .nav-item.active {
+            background-color: rgba(37, 99, 235, 0.15);
+            color: var(--text-sidebar-active);
+            border-left-color: var(--accent);
+            font-weight: 600;
+        }
+
+        .nav-tag {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: #1e293b;
+            color: #94a3b8;
+        }
+
+        /* --- MAIN CONTENT --- */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            flex-shrink: 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .doc-title { font-size: 1.1rem; font-weight: 700; color: var(--primary); }
+        .controls { display: flex; gap: 15px; align-items: center; }
+
+        .switch-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-light);
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+        .switch-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+        .switch-btn:hover:not(.active) { background: #f8fafc; color: var(--primary); }
+
+        .action-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s;
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+        }
+        .action-btn:hover { background: #1d4ed8; }
+
+        /* --- PREVIEW --- */
+        .preview-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            background-color: #525659;
+        }
+
+        .paper {
+            background: white;
+            width: 210mm; 
+            min-height: 297mm; 
+            padding: 45px 55px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            color: #000;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        .resume-header { border-bottom: 1px solid #000; padding-bottom: 15px; margin-bottom: 20px; }
+        .resume-name { font-size: 26px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: #000; }
+        .resume-title { font-size: 15px; font-weight: 600; color: #444; margin-top: 6px; letter-spacing: 0.5px; }
+        .resume-contact { font-size: 11px; margin-top: 12px; display: flex; gap: 20px; flex-wrap: wrap; color: #555; }
+        .resume-contact span { display: flex; align-items: center; gap: 6px; }
+
+        .resume-section { margin-bottom: 24px; }
+        .section-title {
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            color: var(--primary);
+            letter-spacing: 1px;
+        }
+
+        .job-entry { margin-bottom: 18px; }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px; }
+        .job-role { font-weight: 700; font-size: 14px; color: #000; }
+        .job-company { font-weight: 600; font-size: 13px; color: #333; }
+        .job-date { font-size: 11px; color: #666; font-weight: 500; }
+        .job-desc { font-size: 13px; line-height: 1.55; color: #333; margin-top: 2px;}
+        .job-desc ul { padding-left: 17px; margin-top: 6px; }
+        .job-desc li { margin-bottom: 4px; }
+
+        /* Portfolio Showcase Styles */
+        .portfolio-highlight {
+            background-color: #f8fafc;
+            border-left: 4px solid var(--accent);
+            padding: 12px 15px;
+            margin-bottom: 15px;
+        }
+        .portfolio-highlight strong { color: #0f172a; display: block; margin-bottom: 5px; font-size: 13px; }
+        .portfolio-highlight p { font-size: 12px; color: #475569; line-height: 1.5; }
+
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+        .skill-tag { 
+            font-size: 11px; 
+            background: #f1f5f9; 
+            color: #334155; 
+            padding: 3px 9px; 
+            border-radius: 2px; 
+            font-weight: 600; 
+            border: 1px solid #e2e8f0;
+        }
+
+        /* --- COVER LETTER --- */
+        .cl-header { margin-bottom: 35px; }
+        .cl-sender { margin-bottom: 25px; line-height: 1.5; font-size: 13px; }
+        .cl-recipient { margin-bottom: 25px; line-height: 1.5; font-size: 13px; }
+        .cl-body p { margin-bottom: 16px; line-height: 1.6; font-size: 13px; text-align: justify; }
+        .cl-sign { margin-top: 45px; }
+
+        .hidden { display: none !important; }
+
+        @media (max-width: 900px) {
+            body { flex-direction: column; height: auto; overflow: auto; }
+            aside { width: 100%; height: auto; max-height: 250px; }
+            .preview-container { padding: 10px; }
+            .paper { width: 100%; min-height: auto; padding: 20px; }
+            header { flex-direction: column; height: auto; gap: 15px; padding: 15px; }
+        }
+
+        @media print {
+            body { background: white; height: auto; display: block; overflow: visible; }
+            aside, header, .doc-type-switcher, .action-btn, .switch-btn { display: none !important; }
+            .preview-container { display: block; padding: 0; margin: 0; background: white; overflow: visible; }
+            .paper { box-shadow: none; margin: 0; width: 100%; padding: 0; min-height: auto; }
+            .hidden-print { display: none; }
+            .skill-tag { border: 1px solid #ccc; background: none; color: #000; }
+            .job-entry { break-inside: avoid; }
+            .portfolio-highlight { border: 1px solid #ccc; background: #fff; }
+            a { text-decoration: none; color: #000; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <aside>
+        <div class="profile-mini">
+            <h1>KAZI MUSHARRAF</h1>
+            <p>AI Engineer & Indie Builder</p>
+            <div class="meta">
+                Wipro | VIBE Ecosystem<br>
+                8 Portfolios | 48+ Deployments
+            </div>
+        </div>
+        <nav id="roleNav">
+            <!-- Generated by JS -->
+        </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+        <header>
+            <div class="doc-title" id="currentRoleTitle">Select Role</div>
+            <div class="controls">
+                <div class="doc-type-switcher">
+                    <button class="switch-btn active" onclick="setDocType('resume')">Resume</button>
+                    <button class="switch-btn" onclick="setDocType('cover')">Cover Letter</button>
+                </div>
+                <button class="action-btn" onclick="printDocument()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                    Download PDF
+                </button>
+            </div>
+        </header>
+
+        <div class="preview-container">
+            <div class="paper" id="documentPaper">
+                <!-- Content -->
+            </div>
+        </div>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const masterData = {
+            name: "Kazi Musharraf",
+            location: "India | Open to Remote",
+            email: "kazimusharraf1234@gmail.com",
+            github: "mk-knight23",
+            linkedin: "kazi-musharraf",
+            phone: "+91 9765490536"
+        };
+
+        const roles = [
+            {
+                id: "ai-devtools",
+                title: "AI DevTools Engineer",
+                summary: "AI Engineer specializing in agentic coding systems and developer experience (DX). Founder of the VIBE ecosystem, architecting production-ready CLI and VS Code extensions that utilize Multi-LLM Routing, Hierarchical RAG, and autonomous agents to redefine developer workflows.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: DevTools & Edge Infra",
+                    desc: "Orchestrated 8 role-specific devtool repositories (CLI, Extensions, Agents) with 48+ edge deployments to Vercel & AWS Lambda. Demonstrated mastery of CI/CD pipelines for rapid tool iteration and NPM registry management.",
+                    tech: ["Vercel Edge", "AWS Lambda", "NPM", "GitHub Actions", "Docker"]
+                },
+                skills: ["Agentic Systems", "LLM Orchestration", "VS Code Extensions", "CLI Development", "H-RAG", "Developer Experience (DX)", "Python", "Node.js", "TypeScript", "CI/CD"],
+                experience: [
+                    {
+                        role: "Project Engineer (Turbo)",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Engineered production-grade full-stack systems, ensuring high availability and scalable cloud integration.",
+                            "Spearheaded automation initiatives to streamline CI/CD pipelines, reducing deployment overhead.",
+                            "Collaborated in cross-functional agile teams to deliver robust software solutions for enterprise clients."
+                        ]
+                    },
+                    {
+                        role: "Founder & Lead Architect",
+                        company: "VIBE Ecosystem",
+                        date: "Indie Project",
+                        desc: [
+                            "Architected a secure, multi-agent AI CLI capable of autonomous coding, debugging, and architectural reasoning.",
+                            "Implemented a Multi-Provider Model Router with intelligent fallback mechanisms and guardrails to ensure 99% uptime.",
+                            "Developed a VS Code extension featuring real-time streaming, state machine orchestration, and deep tool integration.",
+                            "Deployed Hierarchical RAG (H-RAG) architecture to enable context-aware decision-making for code generation."
+                        ]
+                    }
+                ],
+                coverLetter: `I am writing to express my strong interest in the AI DevTools Engineer position. My unique background combines the rigorous discipline of enterprise engineering at Wipro with the innovation-driven mindset of a founder building the VIBE Ecosystem.\n\nAt Wipro, I honed my skills in building reliable, scalable systems. However, my passion lies in the intersection of AI and Developer Experience. As the founder of VIBE, I architected a production-grade CLI and VS Code extension that doesn't just integrate LLMs—it orchestrates them. I implemented Multi-LLM Routing, Hierarchical RAG, and autonomous agent workflows to solve real developer pain points: latency, context limits, and trust.\n\nMy commitment to engineering excellence is further demonstrated by my 'Multi-Portfolio Showcase,' where I maintain 8 distinct role-specific codebases. I have executed over 48 production deployments across AWS Lambda and Vercel Edge, proving my ability to ship devtools rapidly and reliably. I am eager to bring this blend of system design, AI research, and product execution to your team.`
+            },
+            {
+                id: "fullstack-ai",
+                title: "Full Stack Engineer (AI-Enabled)",
+                summary: "Results-driven Full Stack Engineer with expertise in end-to-end web application development. Proven track record of delivering scalable platforms (React/Node) and integrating sophisticated AI automation workflows to enhance business logic and user experience.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Full-Stack Scalability",
+                    desc: "Deployed 8 full-stack MVPs across a multi-cloud strategy (Vercel Frontend + AWS/Node Backend). Executed 48+ production database migrations and API deployments, showcasing deep knowledge of scaling, load balancing, and CI/CD orchestration.",
+                    tech: ["Vercel", "AWS EC2", "PostgreSQL", "Redis", "GitHub Actions", "Docker"]
+                },
+                skills: ["React", "Node.js", "TypeScript", "RESTful APIs", "AI Integration", "PostgreSQL", "Cloud Deployment", "Microservices"],
+                experience: [
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Developed and maintained enterprise-grade applications, handling complex backend logic and frontend state management.",
+                            "Optimized application performance and data processing pipelines for high-volume traffic.",
+                            "Partnered with product teams to translate requirements into scalable technical architecture."
+                        ]
+                    },
+                    {
+                        role: "Full Stack Developer",
+                        company: "Independent SaaS & Platforms",
+                        date: "2020 – Present",
+                        desc: [
+                            "Architected a comprehensive Student Management Portal with role-based access control (RBAC) and automated reporting.",
+                            "Integrated AI-driven agents into web applications to automate data entry, analysis, and content generation.",
+                            "Designed and deployed RESTful APIs and CI/CD pipelines, reducing time-to-market for new features."
+                        ]
+                    }
+                ],
+                coverLetter: `I am applying for the Full Stack Engineer position because I thrive on owning the complete software lifecycle—from the database schema to the pixel-perfect UI.\n\nMy role at Wipro has provided me with a strong foundation in enterprise-grade engineering, focusing on stability and scalability. In parallel, my independent work has allowed me to push boundaries. I have built full-stack platforms that don't just function—they leverage AI to automate workflows and enhance user value.\n\nI practice a 'Ship-It' mentality, evidenced by my 'Multi-Portfolio Showcase.' I have deployed 8 distinct full-stack applications across AWS and Vercel, executing over 48 production deployments. This hands-on experience with multi-cloud infra, database scaling, and automated CI/CD pipelines ensures I can hit the ground running and deliver robust, scalable solutions for your team.`
+            },
+            {
+                id: "frontend-react",
+                title: "Frontend Engineer (React)",
+                summary: "Frontend Engineer specializing in high-performance React applications. Expert in building responsive, accessible, and component-driven user interfaces that scale. Experienced in integrating complex backend data streams and AI-driven features into seamless user experiences.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Edge Performance & UI",
+                    desc: "Launched 6+ interactive frontend showcases on Vercel Edge and Cloudflare Workers, demonstrating mastery of static site generation (SSG) and asset optimization. Executed 48+ production UI deployments focused on Core Web Vitals and load-time reduction.",
+                    tech: ["Vercel Edge", "Cloudflare", "Next.js", "Tailwind", "Lighthouse", "Framer Motion"]
+                },
+                skills: ["React.js", "Next.js", "TypeScript", "State Management (Redux/Zustand)", "Component Libraries", "CSS3/Tailwind", "Performance Tuning", "Accessibility (WCAG)"],
+                experience: [
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Constructed responsive, pixel-perfect UI components for enterprise web applications.",
+                            "Collaborated with UX designers to translate high-fidelity prototypes into functional, accessible code.",
+                            "Optimized frontend rendering performance, reducing load times and improving user engagement."
+                        ]
+                    },
+                    {
+                        role: "Frontend Lead",
+                        company: "VIBE Ecosystem & Indie Projects",
+                        date: "2020 – Present",
+                        desc: [
+                            "Developed complex React dashboards and real-time chat interfaces for AI developer tools.",
+                            "Implemented state management patterns to handle asynchronous data streams and real-time agent updates.",
+                            "Enforced UI consistency across multiple products by creating reusable component libraries and design systems."
+                        ]
+                    }
+                ],
+                coverLetter: `I am passionate about Frontend Engineering because it is the bridge between complex technology and human experience.\n\nMy experience at Wipro taught me how to build robust, maintainable UIs for enterprise scale. My independent work, however, allowed me to specialize in high-performance React applications. I have built interfaces that handle real-time data streaming, complex state orchestration, and AI interactions—all while maintaining 60fps performance and intuitive usability.\n\nI back up this expertise with tangible proof: my 'Multi-Portfolio Showcase.' I have deployed 6+ role-specific frontend architectures on Vercel Edge, executing over 48 production builds. This experience with edge caching, asset optimization, and global CDN strategy ensures I can deliver lightning-fast, responsive interfaces for your users.`
+            },
+            {
+                id: "backend-platform",
+                title: "Backend / Platform Engineer",
+                summary: "Backend Engineer focused on building resilient API platforms and distributed systems. Experienced in designing scalable microservices, optimizing database performance, and integrating AI inference layers into production backends.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Cloud Infra & APIs",
+                    desc: "Designed and deployed 8 microservice architectures across AWS and Azure, utilizing serverless functions and containerized workflows. Achieved 48+ successful production releases, demonstrating proficiency in load balancing, auto-scaling, and secure API gateway management.",
+                    tech: ["AWS", "Azure Functions", "Docker", "Kubernetes", "Terraform", "API Gateway", "MongoDB"]
+                },
+                skills: ["Node.js", "Python", "System Design", "API Gateway", "Docker/Kubernetes", "AWS/Cloud", "LLM Integration", "Automation"],
+                experience: [
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Engineered scalable backend services and RESTful APIs to support high-traffic enterprise applications.",
+                            "Enhanced system reliability through rigorous testing, monitoring, and production support.",
+                            "Implemented automated workflows to reduce manual deployment overhead."
+                        ]
+                    },
+                    {
+                        role: "Backend Architect",
+                        company: "VIBE Ecosystem",
+                        date: "Indie Project",
+                        desc: [
+                            "Designed the core backend architecture for a multi-agent AI platform, handling concurrent requests and complex orchestration logic.",
+                            "Built a high-performance LLM routing service capable of load balancing across multiple providers (OpenAI, Anthropic, Local).",
+                            "Developed secure API layers for authentication, rate limiting, and data ingestion for SaaS products."
+                        ]
+                    }
+                ],
+                coverLetter: `I am drawn to Backend Engineering because I love solving complex problems of scale, reliability, and data integrity.\n\nAt Wipro, I worked on the backbone of enterprise systems, ensuring that services are available and performant. In my personal projects, specifically the VIBE ecosystem, I took on the challenge of building a backend for AI. This required designing systems that are not only fast but capable of handling the unpredictable latency and heavy payloads of LLM inference.\n\nMy 'Multi-Portfolio Showcase' validates my infra skills. I have architected 8 distinct backend services on AWS and Azure, handling 48+ production deployments involving serverless scaling and container orchestration. I bring this deep experience in platform engineering, API design, and cloud infrastructure to your team.`
+            },
+            {
+                id: "ai-frontend",
+                title: "AI Frontend Engineer",
+                summary: "Specialized Frontend Engineer focused on the UX of AI. Expert in building interfaces for Large Language Models (LLMs), real-time streaming text, and agent interactions. Skilled at making complex AI workflows feel intuitive and responsive for end-users.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: AI Interfaces",
+                    desc: "Deployed 8 AI-centric web applications on Vercel and Firebase, showcasing real-time streaming capabilities and low-latency state management. Executed 48+ production iterations to optimize for WebSocket connections and async data rendering.",
+                    tech: ["Vercel", "Firebase", "WebSockets", "React", "State Machines", "Streamlit"]
+                },
+                skills: ["React", "AI UX Patterns", "Streaming Interfaces", "Prompt Engineering UI", "Markdown Rendering", "State Machines", "WebSockets"],
+                experience: [
+                    {
+                        role: "AI Frontend Specialist",
+                        company: "VIBE Ecosystem",
+                        date: "Indie Project",
+                        desc: [
+                            "Built the primary interface for a multi-agent AI coding tool, managing real-time chat and code block streaming.",
+                            "Designed UX patterns for 'human-in-the-loop' workflows, including approval flows, diff viewing, and agent state visualization.",
+                            "Integrated diverse LLM providers into a unified frontend, handling edge cases like rate limits and latency masking."
+                        ]
+                    },
+                    {
+                        role: "Frontend Developer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Developed responsive components and integrated data visualization libraries for analytics dashboards.",
+                            "Collaborated with backend teams to consume AI-driven APIs and display insights effectively."
+                        ]
+                    }
+                ],
+                coverLetter: `The success of an AI product is determined by its interface. If the user doesn't trust the AI, the technology fails. This is why I specialize in AI Frontend Engineering.\n\nThrough my work on the VIBE ecosystem, I have solved the unique challenges of building for AI: how to display streaming text naturally, how to visualize agent thought processes, and how to design UI that guides the user to the right result. I combine deep React knowledge with a keen understanding of LLM behavior.\n\nI have proven this capability through my 'Multi-Portfolio Showcase.' I have deployed 8 distinct AI interfaces on Firebase and Vercel, executing 48+ production builds focused on minimizing latency and maximizing streaming stability. I am eager to apply this specialized skillset to build AI interfaces that are not just functional, but trustworthy.`
+            },
+            {
+                id: "senior-frontend",
+                title: "Senior Frontend Engineer",
+                summary: "Senior Frontend Engineer with a focus on architectural excellence and team velocity. Proven ability to lead technical decisions, establish coding standards, and mentor junior developers. Experienced in delivering large-scale applications using React and modern web technologies.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Monorepo Strategy",
+                    desc: "Orchestrated a Monorepo strategy for 8 portfolio sites, enabling 48+ synchronized production deployments via a unified CI/CD pipeline. Utilized Turborepo and Vercel to demonstrate advanced build optimization and code sharing across multiple complex frontend architectures.",
+                    tech: ["Turborepo", "Vercel", "GitHub Actions", "Storybook", "Design Systems", "NX", "CI/CD"]
+                },
+                skills: ["Frontend Architecture", "React", "TypeScript", "Design Systems", "Performance Auditing", "Technical Leadership", "Code Review", "Build Tools (Vite/Webpack)"],
+                experience: [
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Led the frontend delivery for key modules in enterprise applications, ensuring code quality and timely release.",
+                            "Conducted code reviews and technical sessions to uplift team engineering practices.",
+                            "Refactored legacy codebases to improve maintainability and performance."
+                        ]
+                    },
+                    {
+                        role: "Lead Frontend Architect",
+                        company: "VIBE Ecosystem",
+                        date: "Indie Project",
+                        desc: [
+                            "Architected a scalable Monorepo structure for multiple frontend products (CLI, Extension, Web), ensuring shared libraries and consistency.",
+                            "Established a robust design system and component library to accelerate development velocity.",
+                            "Implemented advanced performance optimizations, including code splitting and lazy loading, for instant page loads."
+                        ]
+                    }
+                ],
+                coverLetter: `As a Senior Frontend Engineer, I view my role as not just a coder, but an architect of user experience and team efficiency.\n\nMy experience at Wipro has taught me how to navigate enterprise constraints and deliver consistent results. Leading the VIBE ecosystem has given me the freedom to architect complex systems from the ground up. I have designed Monorepo strategies, built reusable design systems, and made critical technical decisions that impact long-term maintainability.\n\nI demonstrate this engineering rigor through my 'Multi-Portfolio Showcase.' I manage 8 distinct frontend architectures within a unified Monorepo, executing 48+ production deployments that demonstrate mastery of build optimization and CI/CD orchestration. I am looking for a senior role where I can leverage this architectural mindset to mentor others and define standards.`
+            },
+            {
+                id: "indie-saas",
+                title: "Indie SaaS / Startup Engineer",
+                summary: "Product-driven Engineer with a '0-to-1' mentality. Experienced in independently launching and scaling SaaS products. Combines technical breadth (Full Stack, DevOps, AI) with product strategy skills including market analysis, roadmapping, and customer acquisition.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Rapid Prototyping",
+                    desc: "Launched 8 independent SaaS MVPs on Firebase and Vercel, validating product-market fit through 48+ feature flag releases. Managed full-stack deployment pipelines, billing integration, and real-time analytics to optimize user acquisition and retention.",
+                    tech: ["Firebase", "Vercel", "Stripe", "Google Analytics", "Hotjar", "PostgreSQL"]
+                },
+                skills: ["SaaS Architecture", "Product Strategy", "Full Stack Development", "Growth Engineering", "SEO", "Stripe Integration", "MVP Development", "User Research"],
+                experience: [
+                    {
+                        role: "Founder & Product Engineer",
+                        company: "VIBE Ecosystem",
+                        date: "Indie Project",
+                        desc: [
+                            "Conceptualized and built a multi-product AI SaaS platform from scratch, managing the entire lifecycle from ideation to deployment.",
+                            "Conducted competitive analysis across 60+ tools to define product-market fit and differentiation strategy.",
+                            "Implemented infrastructure for billing, authentication, and automated onboarding to enable self-service growth."
+                        ]
+                    },
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Leveraged enterprise experience to apply rigorous testing and deployment practices to personal SaaS projects."
+                        ]
+                    }
+                ],
+                coverLetter: `I thrive in environments where speed, ownership, and execution are paramount.\n\nAs an Indie Builder, I have shipped the VIBE Ecosystem—a suite of AI developer tools that required me to be the CEO, CTO, and Lead Developer simultaneously. I understand the technical challenges of SaaS, but I also understand the business challenges: acquiring users, managing churn, and iterating on feedback.\n\nI embody the 'Ship-It' ethos, proven by my 'Multi-Portfolio Showcase.' I have launched 8 distinct SaaS MVPs on Firebase and Vercel, executing 48+ production deployments to validate features and drive growth. I bring this full-stack, product-first mindset to accelerate your roadmap and build products that solve real problems.`
+            },
+            {
+                id: "ai-automation",
+                title: "AI Automation Engineer",
+                summary: "AI Automation Engineer specializing in agentic workflows and business process automation. Expert in leveraging LLMs, RAG, and Python scripting to replace manual effort with intelligent, autonomous systems that execute complex multi-step tasks.",
+                portfolioShowcase: {
+                    title: "Multi-Portfolio Engineering Showcase: Serverless Automation",
+                    desc: "Developed 8 autonomous agent workflows deployed on Cloudflare Workers and AWS Lambda. Executed 48+ production cron jobs and event-driven triggers, demonstrating robust error handling, retry logic, and serverless scaling for mission-critical automation.",
+                    tech: ["Cloudflare Workers", "AWS Lambda", "Cron", "Python", "Node.js", "Make.com", "n8n"]
+                },
+                skills: ["AI Agents", "Python Automation", "LangChain", "RAG", "Orchestration", "Process Mining", "API Integration", "Prompt Engineering"],
+                experience: [
+                    {
+                        role: "AI Automation Architect",
+                        company: "VIBE Ecosystem & Pipelines",
+                        date: "Indie Project",
+                        desc: [
+                            "Engineered agent-based systems to automate complex software development lifecycles, from analysis to code generation.",
+                            "Built a 'YouTube-to-Software' pipeline that ingests video content, generates implementation plans, and executes code via agents.",
+                            "Developed intelligent document processing workflows using OCR and LLM extraction to reduce data entry time by 80%."
+                        ]
+                    },
+                    {
+                        role: "Project Engineer",
+                        company: "Wipro",
+                        date: "Jul 2022 – Present",
+                        desc: [
+                            "Identified manual bottlenecks in enterprise workflows and scripted automation solutions to improve efficiency.",
+                            "Integrated third-party AI services into existing business logic to enhance data processing capabilities."
+                        ]
+                    }
+                ],
+                coverLetter: `I believe the future of work is not just AI assistance, but AI Automation—systems that execute, not just suggest.\n\nMy work focuses on building this future. I have designed agentic pipelines that can watch a tutorial, write a plan, and generate the code. I have built systems that orchestrate multiple LLMs to complete complex business tasks autonomously. This goes beyond simple scripting; it requires a deep understanding of AI reasoning, prompt engineering, and system integration.\n\nI validate this expertise through my 'Multi-Portfolio Showcase.' I have deployed 8 distinct automation workflows on Cloudflare Workers and AWS Lambda, executing 48+ production triggers. This hands-on experience with serverless infra and event-driven architectures ensures I can build reliable, autonomous systems for your organization.`
+            }
+        ];
+
+        let currentRoleIndex = 0;
+        let currentDocType = 'resume';
+        const navEl = document.getElementById('roleNav');
+        const roleTitleEl = document.getElementById('currentRoleTitle');
+        const paperEl = document.getElementById('documentPaper');
+
+        function init() {
+            renderNav();
+            renderContent();
+        }
+
+        function renderNav() {
+            navEl.innerHTML = roles.map((role, index) => `
+                <div class="nav-item ${index === currentRoleIndex ? 'active' : ''}" onclick="selectRole(${index})">
+                    <span>${role.title}</span>
+                    <span class="nav-tag">0${index + 1}</span>
+                </div>
+            `).join('');
+        }
+
+        function selectRole(index) {
+            currentRoleIndex = index;
+            renderNav();
+            renderContent();
+        }
+
+        function setDocType(type) {
+            currentDocType = type;
+            document.querySelectorAll('.switch-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderContent();
+        }
+
+        function printDocument() {
+            const roleName = roles[currentRoleIndex].title.replace(/\s+/g, '_');
+            const docName = currentDocType === 'resume' ? 'Resume' : 'Cover_Letter';
+            document.title = `${docName}_${roleName}_Kazi_Musharraf`;
+            window.print();
+            setTimeout(() => { document.title = "Kazi Musharraf | Multi-Portfolio Hub"; }, 1000);
+        }
+
+        function renderContent() {
+            const role = roles[currentRoleIndex];
+            roleTitleEl.textContent = role.title;
+
+            if (currentDocType === 'resume') {
+                paperEl.innerHTML = `
+                    <div class="resume-header">
+                        <div class="resume-name">${masterData.name}</div>
+                        <div class="resume-title">${role.title}</div>
+                        <div class="resume-contact">
+                            <span>📍 ${masterData.location}</span>
+                            <span>📞 ${masterData.phone}</span>
+                            <span>📧 ${masterData.email}</span>
+                            <span>🔗 github.com/${masterData.github}</span>
+                            <span>🔗 linkedin.com/in/${masterData.linkedin}</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="section-title">Professional Summary</div>
+                        <div class="job-desc">${role.summary}</div>
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="section-title">Engineering Showcase</div>
+                        <div class="portfolio-highlight">
+                            <strong>${role.portfolioShowcase.title}</strong>
+                            <p>${role.portfolioShowcase.desc}</p>
+                            <div class="skills-grid" style="margin-top: 8px;">
+                                ${role.portfolioShowcase.tech.map(t => `<span class="skill-tag">${t}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="section-title">Experience</div>
+                        ${role.experience.map(job => `
+                            <div class="job-entry">
+                                <div class="job-header">
+                                    <span class="job-role">${job.role}</span>
+                                    <span class="job-date">${job.date}</span>
+                                </div>
+                                <div class="job-company">${job.company}</div>
+                                <div class="job-desc">
+                                    <ul>
+                                        ${job.desc.map(d => `<li>${d}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="section-title">Technical Skills</div>
+                        <div class="skills-grid">
+                            ${role.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="resume-section hidden-print" style="font-size: 10px; color: #ccc; margin-top: 50px; text-align: center; border-top: 1px solid #eee; padding-top: 10px;">
+                        Generated via Multi-Portfolio Career Hub
+                    </div>
+                `;
+            } else {
+                const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+                const bodyParagraphs = role.coverLetter.split('\n\n').map(p => `<p>${p}</p>`).join('');
+
+                paperEl.innerHTML = `
+                    <div class="cl-header">
+                        <div class="resume-name" style="font-size: 20px;">${masterData.name}</div>
+                        <div style="font-size: 13px; margin-top: 5px; line-height: 1.5; color: #333;">
+                            ${masterData.location}<br>
+                            ${masterData.email} | ${masterData.phone}<br>
+                            github.com/${masterData.github} | linkedin.com/in/${masterData.linkedin}
+                        </div>
+                    </div>
+
+                    <div class="cl-body">
+                        <div class="cl-sender">
+                            ${today}
+                        </div>
+                        
+                        <div class="cl-recipient">
+                            Hiring Manager<br>
+                            [Company Name]<br>
+                            [Company Address]
+                        </div>
+
+                        <p><strong>Re: Application for ${role.title}</strong></p>
+
+                        ${bodyParagraphs}
+
+                        <p>Thank you for your time and consideration. I am confident that my background in building scalable, AI-driven solutions makes me a strong fit for this role. I look forward to the possibility of discussing how I can contribute to your team's success.</p>
+
+                        <div class="cl-sign">
+                            Sincerely,<br><br>
+                            <strong>${masterData.name}</strong>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        init();
+
+    </script>
+</body>
+</html>
