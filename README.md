@@ -135,7 +135,7 @@
 
 A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cloud platforms.
 
-| # | Role | Cloudflare (Primary) | Azure Static | Firebase | AWS Amplify | Render | Vercel |
+| # | Role | Cloudflare | Azure Static | Google Firebase | AWS Amplify | Render | Vercel |
 |---|------|----------------------|--------------|----------|-------------|--------|--------|
 | 01 | **DevTools Engineer** | [Link](https://01-devtools.pages.dev) | [Link](https://witty-cliff-0cf40420f-preview.eastus2.2.azurestaticapps.net) | [Link](https://portfolio-devtools.web.app) | [Link](https://main.d3kxqk7cdhc7i0.amplifyapp.com) | [Link](https://zero1-portfolio-devtools.onrender.com) | [Link](https://01-portfolio-devtools.vercel.app) |
 | 02 | **Full Stack Developer** | [Link](https://02-fullstack.pages.dev) | [Link](https://salmon-coast-0112a010f-preview.eastus2.4.azurestaticapps.net) | [Link](https://mk-knight-fullstack.web.app) | [Link](https://main.dqywouu7sv625.amplifyapp.com) | [Link](https://zero2-portfolio-fullstack.onrender.com) | [Link](https://02-portfolio-fullstack.vercel.app) |
