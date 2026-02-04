@@ -150,7 +150,7 @@ A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cl
 
 ## 🌐 Web Repositories (09-24)
 
-| # | Repository | Vercel | Status | Tech Stack |
+| # | Repository | Vercel/Firebase | Status | Tech Stack |
 |---|------------|--------|--------|------------|
 | 09 | **Geographic Explorer** | [Live](https://09-web-geographic-explorer.vercel.app) | ✅ Live | React 19 + TypeScript |
 | 10 | **Time Display** | [Live](https://10-web-time-display.vercel.app) | ✅ Live | React 19 + TypeScript |
@@ -160,14 +160,14 @@ A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cl
 | 14 | **AI Research** | [Live](https://14-web-ai-research.vercel.app) | ✅ Live | React 19 + TypeScript |
 | 15 | **Luxury Boutique** | [Live](https://15-web-luxury-boutique.vercel.app) | ✅ Live | React 19 + TypeScript |
 | 16 | **Editorial Layouts** | [Live](https://16-web-editorial-layouts.vercel.app) | ✅ Live | React 19 + TypeScript |
-| 17 | **Culinary Discovery** | N/A | ⏳ Pending | Vue 3 + TypeScript |
-| 18 | **Atmospheric Dashboard** | N/A | ⏳ Pending | Angular 21 |
-| 19 | **Viral Creator** | N/A | ⏳ Pending | React 19 + TypeScript |
-| 20 | **Career Navigator** | N/A | ⏳ Pending | React 19 + TypeScript |
-| 21 | **Enterprise Input** | N/A | ⏳ Pending | React 19 + TypeScript |
-| 22 | **Professional Showcase** | N/A | ⏳ Pending | Vue 3 + TypeScript |
-| 23 | **Financial Printing** | N/A | ⏳ Pending | Angular 21 |
-| 24 | **Sketch Studio** | N/A | ⏳ Pending | Vue 3 + TypeScript |
+| 17 | **Culinary Discovery** | [Live](https://culinary-discovery.web.app)| ✅ Live  | Vue 3 + TypeScript |
+| 18 | **Atmospheric Dashboard** | [Live](https://atmospheric-dashboard.web.app) | ✅ Live  | Angular 21 |
+| 19 | **Viral Creator** | [Live](https://meme-creator-47cf1.web.app) | ✅ Live  | React 19 + TypeScript |
+| 20 | **Career Navigator** | [Live](https://tech-roadmaps-vista.web.app) | ✅ Live | React 19 + TypeScript |
+| 21 | **Enterprise Input** | [Live](https://enterprise-input.web.app) | ✅ Live  | React 19 + TypeScript |
+| 22 | **Professional Showcase** | [Live](https://enterprise-input.web.app) | ✅ Live  | Vue 3 + TypeScript |
+| 23 | **Financial Printing** | [Live](https://financial-printing.web.app) | ✅ Live | Angular 21 |
+| 24 | **Sketch Studio** | [Live](https://sketch-studio.web.ap) | ✅ Live | Vue 3 + TypeScript |
 
 **Web Deployments**: 8/16 (50% Live) ✅
 *Repos 17-24 built successfully but pending deployment*
