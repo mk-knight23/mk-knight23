@@ -167,7 +167,7 @@ A comprehensive dashboard of all 8 portfolio projects deployed across 6 major cl
 | 21 | **Enterprise Input** | [Live](https://enterprise-input.web.app) | ✅ Live  | React 19 + TypeScript |
 | 22 | **Professional Showcase** | [Live](https://enterprise-input.web.app) | ✅ Live  | Vue 3 + TypeScript |
 | 23 | **Financial Printing** | [Live](https://financial-printing.web.app) | ✅ Live | Angular 21 |
-| 24 | **Sketch Studio** | [Live](https://sketch-studio.web.ap) | ✅ Live | Vue 3 + TypeScript |
+| 24 | **Sketch Studio** | [Live](https://sketch-studio.web.app) | ✅ Live | Vue 3 + TypeScript |
 
 **Web Deployments**: 8/16 (50% Live) ✅
 *Repos 17-24 built successfully but pending deployment*
