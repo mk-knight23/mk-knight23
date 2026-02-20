@@ -3,70 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kazi Musharraf | Full-Stack Developer & AI Engineer</title>
-    <meta name="description" content="Hi, I'm Kazi Musharraf - a Full-Stack Developer and AI Automation Engineer from India. I build practical web apps, AI tools, and open source projects.">
-    <link rel="canonical" href="https://github.com/mk-knight23">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <title>Kazi Musharraf | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        /* ┌─────────────────────────────────────────────────────────────┐
-           │  WARM & FRIENDLY DESIGN SYSTEM                             │
-           │  Bright colors, human feel, approachable                   │
-           └─────────────────────────────────────────────────────────────┘ */
-        
-        :root {
-            /* Warm Light Backgrounds */
-            --bg-cream: #FFFBF7;
-            --bg-warm: #FFF5EB;
-            --bg-soft: #FFFAF5;
-            --bg-card: #FFFFFF;
-            
-            /* Warm Accent Colors */
-            --coral: #FF6B5B;
-            --orange: #F97316;
-            --amber: #F59E0B;
-            --gold: #FBBF24;
-            --teal: #14B8A6;
-            --sky: #0EA5E9;
-            --indigo: #6366F1;
-            --purple: #A855F7;
-            
-            /* Text Colors (Dark for readability) */
-            --text-dark: #1A1A2E;
-            --text-medium: #374151;
-            --text-soft: #6B7280;
-            --text-light: #9CA3AF;
-            
-            /* Border & Decorative */
-            --border-light: #F3E8DC;
-            --border-soft: #E8DDD0;
-            --shadow-subtle: 0 2px 12px rgba(26, 26, 46, 0.06);
-            --shadow-soft: 0 4px 20px rgba(26, 26, 46, 0.08);
-            --shadow-warm: 0 8px 30px rgba(249, 115, 22, 0.12);
-            
-            /* Spacing */
-            --space-xs: 0.25rem;
-            --space-sm: 0.5rem;
-            --space-md: 1rem;
-            --space-lg: 1.5rem;
-            --space-xl: 2rem;
-            --space-2xl: 3rem;
-            --space-3xl: 4rem;
-            
-            /* Typography */
-            --font-heading: 'Outfit', -apple-system, sans-serif;
-            --font-body: 'Inter', -apple-system, sans-serif;
-            --font-code: 'Fira Code', monospace;
-            
-            /* Transitions */
-            --ease: cubic-bezier(0.4, 0, 0.2, 1);
-            --duration: 200ms;
-        }
-
-        /* Reset */
-        *, *::before, *::after {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        :root {
+            /* Warm Color Palette */
+            --coral: #FF6B5B;
+            --orange: #F97316;
+            --amber: #FBBF24;
+            --teal: #14B8A6;
+            
+            /* Backgrounds */
+            --bg-cream: #FFFBF7;
+            --bg-gradient: linear-gradient(135deg, #FFF5EB 0%, #FFFBF7 50%, #FFF0E6 100%);
+            
+            /* Glass Effect */
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --glass-shadow: 0 8px 32px rgba(255, 107, 91, 0.1);
+            
+            /* Text */
+            --text-dark: #1A1A2E;
+            --text-medium: #374151;
+            --text-light: #6B7280;
+            
+            /* Spacing */
+            --sm: 0.5rem;
+            --md: 1rem;
+            --lg: 1.5rem;
+            --xl: 2rem;
+            --2xl: 3rem;
+            --3xl: 4rem;
         }
 
         html {
@@ -74,50 +47,53 @@
         }
 
         body {
-            font-family: var(--font-body);
+            font-family: 'Inter', -apple-system, sans-serif;
             font-size: 16px;
-            line-height: 1.65;
+            line-height: 1.6;
             color: var(--text-medium);
-            background: var(--bg-cream);
-            -webkit-font-smoothing: antialiased;
+            background: var(--bg-gradient);
+            min-height: 100vh;
         }
 
         /* Container */
         .container {
-            max-width: 1200px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 0 var(--lg);
         }
 
-        @media (min-width: 768px) {
-            .container {
-                padding: 0 var(--xl);
-            }
+        /* Glass Card */
+        .glass {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            box-shadow: var(--glass-shadow);
         }
 
         /* Navigation */
         .nav {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: var(--lg);
+            left: 50%;
+            transform: translateX(-50%);
             z-index: 100;
-            background: rgba(255, 251, 247, 0.9);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border-light);
-            padding: var(--md) 0;
+            width: 90%;
+            max-width: 600px;
         }
 
         .nav-inner {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: var(--sm) var(--lg);
         }
 
         .nav-logo {
-            font-family: var(--font-heading);
-            font-size: 1.4rem;
-            font-weight: 800;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
             color: var(--text-dark);
             text-decoration: none;
         }
@@ -127,18 +103,18 @@
             gap: var(--lg);
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 640px) {
             .nav-links {
                 display: flex;
             }
         }
 
         .nav-links a {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 500;
-            color: var(--text-soft);
+            color: var(--text-light);
             text-decoration: none;
-            transition: color var(--duration) var(--ease);
+            transition: color 0.2s ease;
         }
 
         .nav-links a:hover {
@@ -152,15 +128,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: var(--3xl) var(--lg);
-            background: 
-                radial-gradient(circle at 20% 30%, rgba(255, 107, 91, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 80% 70%, rgba(249, 115, 22, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 50% 50%, rgba(20, 184, 166, 0.06) 0%, transparent 50%);
-        }
-
-        .hero-content {
-            max-width: 700px;
+            padding: var(--3xl) var(--lg) var(--xl);
         }
 
         .hero-badge {
@@ -168,7 +136,7 @@
             align-items: center;
             gap: var(--sm);
             padding: var(--sm) var(--lg);
-            background: rgba(255, 107, 91, 0.1);
+            background: rgba(255, 107, 91, 0.15);
             border-radius: 50px;
             font-size: 0.8rem;
             font-weight: 600;
@@ -187,56 +155,82 @@
 
         @keyframes pulse {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+            50% { opacity: 0.4; }
         }
 
         .hero h1 {
-            font-family: var(--font-heading);
-            font-size: clamp(2.2rem, 8vw, 4rem);
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(2.5rem, 10vw, 4.5rem);
             font-weight: 800;
             line-height: 1.1;
             color: var(--text-dark);
-            margin-bottom: var(--lg);
+            margin-bottom: var(--md);
         }
 
-        .hero h1 .highlight {
+        .hero h1 .gradient {
             background: linear-gradient(135deg, var(--coral), var(--orange), var(--amber));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
-        .hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-soft);
-            margin-bottom: var(--2xl);
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 500px;
+            margin: 0 auto var(--xl);
         }
 
-        .hero-email {
+        .hero-actions {
+            display: flex;
+            gap: var(--sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
             display: inline-flex;
             align-items: center;
             gap: var(--sm);
-            padding: var(--md) var(--lg);
-            background: var(--text-dark);
-            color: white;
+            padding: var(--sm) var(--lg);
             border-radius: 12px;
-            font-family: var(--font-code);
             font-size: 0.9rem;
+            font-weight: 600;
             text-decoration: none;
-            transition: transform var(--duration) var(--ease), box-shadow var(--duration) var(--ease);
+            transition: all 0.2s ease;
+            cursor: pointer;
         }
 
-        .hero-email:hover {
+        .btn-primary {
+            background: var(--coral);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: var(--orange);
             transform: translateY(-2px);
-            box-shadow: var(--shadow-warm);
+            box-shadow: 0 4px 20px rgba(255, 107, 91, 0.3);
+        }
+
+        .btn-glass {
+            background: rgba(255, 255, 255, 0.5);
+            color: var(--text-dark);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-glass:hover {
+            background: rgba(255, 255, 255, 0.7);
+            border-color: var(--coral);
         }
 
         .hero-stats {
             display: flex;
-            flex-wrap: wrap;
-            gap: var(--lg);
+            gap: var(--xl);
             justify-content: center;
             margin-top: var(--2xl);
+            flex-wrap: wrap;
         }
 
         .stat {
@@ -244,24 +238,22 @@
         }
 
         .stat-value {
-            font-family: var(--font-heading);
-            font-size: 2.2rem;
-            font-weight: 800;
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
             color: var(--coral);
         }
 
         .stat-label {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
-        /* Section Styles */
+        /* Section */
         .section {
             padding: var(--3xl) 0;
-        }
-
-        .section-alt {
-            background: var(--bg-warm);
         }
 
         .section-header {
@@ -270,7 +262,7 @@
         }
 
         .section-title {
-            font-family: var(--font-heading);
+            font-family: 'Outfit', sans-serif;
             font-size: 2rem;
             font-weight: 700;
             color: var(--text-dark);
@@ -278,8 +270,8 @@
         }
 
         .section-desc {
-            color: var(--text-soft);
-            max-width: 550px;
+            color: var(--text-light);
+            max-width: 500px;
             margin: 0 auto;
         }
 
@@ -297,42 +289,40 @@
         }
 
         .eco-card {
-            background: var(--bg-card);
-            border-radius: 20px;
             padding: var(--xl);
-            border: 1px solid var(--border-light);
-            transition: all var(--duration) var(--ease);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
         }
 
         .eco-card:hover {
             transform: translateY(-4px);
-            box-shadow: var(--shadow-warm);
-            border-color: rgba(255, 107, 91, 0.3);
+            box-shadow: 0 12px 40px rgba(255, 107, 91, 0.15);
         }
 
-        .eco-card .number {
-            font-family: var(--font-heading);
+        .eco-number {
+            font-family: 'Outfit', sans-serif;
             font-size: 3rem;
             font-weight: 800;
-            color: var(--border-soft);
+            color: rgba(255, 107, 91, 0.15);
             line-height: 1;
             margin-bottom: var(--sm);
         }
 
-        .eco-card .badge {
+        .eco-badge {
             display: inline-block;
-            padding: var(--xs) var(--sm);
-            background: var(--bg-cream);
+            padding: 4px var(--sm);
+            background: rgba(255, 107, 91, 0.1);
             border-radius: 6px;
             font-size: 0.7rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
+            color: var(--coral);
             margin-bottom: var(--md);
         }
 
         .eco-card h3 {
-            font-family: var(--font-heading);
+            font-family: 'Outfit', sans-serif;
             font-size: 1.2rem;
             font-weight: 700;
             color: var(--text-dark);
@@ -341,8 +331,9 @@
 
         .eco-card p {
             font-size: 0.9rem;
-            color: var(--text-soft);
+            color: var(--text-light);
             margin-bottom: var(--lg);
+            line-height: 1.5;
         }
 
         .eco-stats {
@@ -355,18 +346,18 @@
             flex: 1;
             text-align: center;
             padding: var(--sm);
-            background: var(--bg-cream);
+            background: rgba(255, 255, 255, 0.5);
             border-radius: 10px;
         }
 
-        .eco-stat .val {
-            font-family: var(--font-heading);
+        .eco-stat-value {
+            font-family: 'Outfit', sans-serif;
             font-size: 1.2rem;
             font-weight: 700;
             color: var(--orange);
         }
 
-        .eco-stat .lbl {
+        .eco-stat-label {
             font-size: 0.7rem;
             color: var(--text-light);
         }
@@ -376,40 +367,18 @@
             gap: var(--sm);
         }
 
-        .btn {
+        .eco-links .btn {
             flex: 1;
-            display: inline-flex;
-            align-items: center;
             justify-content: center;
-            gap: var(--xs);
-            padding: var(--sm) var(--md);
-            border-radius: 10px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all var(--duration) var(--ease);
-        }
-
-        .btn-primary {
-            background: var(--coral);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: var(--orange);
-        }
-
-        .btn-secondary {
-            background: var(--bg-cream);
-            color: var(--text-dark);
-            border: 1px solid var(--border-light);
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--coral);
+            padding: var(--sm);
+            font-size: 0.8rem;
         }
 
         /* Tech Stack */
+        .tech-section {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
         .tech-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -432,16 +401,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: var(--xs);
+            gap: var(--sm);
             padding: var(--md);
-            background: var(--bg-card);
-            border-radius: 12px;
-            border: 1px solid var(--border-light);
-            transition: all var(--duration) var(--ease);
+            transition: all 0.2s ease;
         }
 
         .tech-item:hover {
-            border-color: var(--coral);
             transform: translateY(-2px);
         }
 
@@ -452,12 +417,11 @@
 
         .tech-name {
             font-size: 0.7rem;
-            font-weight: 600;
-            color: var(--text-soft);
-            text-align: center;
+            font-weight: 500;
+            color: var(--text-light);
         }
 
-        /* Contact Cards */
+        /* Contact */
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -481,45 +445,42 @@
             align-items: center;
             gap: var(--md);
             padding: var(--lg);
-            background: var(--bg-card);
-            border-radius: 14px;
-            border: 1px solid var(--border-light);
             text-decoration: none;
-            transition: all var(--duration) var(--ease);
+            transition: all 0.2s ease;
         }
 
         .contact-card:hover {
-            border-color: var(--coral);
             transform: translateX(4px);
+            border-color: rgba(255, 107, 91, 0.4);
         }
 
         .contact-icon {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--bg-cream);
-            border-radius: 10px;
+            background: rgba(255, 107, 91, 0.1);
+            border-radius: 12px;
             font-size: 1.2rem;
         }
 
         .contact-info h4 {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: 600;
             color: var(--text-dark);
         }
 
         .contact-info span {
             font-size: 0.8rem;
-            color: var(--text-soft);
+            color: var(--text-light);
         }
 
         /* Footer */
         .footer {
             text-align: center;
             padding: var(--2xl) 0;
-            border-top: 1px solid var(--border-light);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .footer p {
@@ -545,17 +506,56 @@
             outline-offset: 2px;
         }
 
-        /* Utilities */
-        .mt-lg { margin-top: var(--lg); }
-        .mt-xl { margin-top: var(--xl); }
-        .mt-2xl { margin-top: var(--2xl); }
+        /* Decorative Elements */
+        .blob {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.5;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .blob-1 {
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 107, 91, 0.3);
+            top: -100px;
+            right: -100px;
+        }
+
+        .blob-2 {
+            width: 300px;
+            height: 300px;
+            background: rgba(249, 115, 22, 0.25);
+            bottom: -50px;
+            left: -50px;
+        }
+
+        .blob-3 {
+            width: 250px;
+            height: 250px;
+            background: rgba(20, 184, 166, 0.2);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width: 640px) {
+            .blob { display: none; }
+        }
     </style>
 </head>
 <body>
 
+    <!-- Decorative Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="container nav-inner">
+    <nav class="nav glass">
+        <div class="nav-inner">
             <a href="#" class="nav-logo">Kazi</a>
             <div class="nav-links">
                 <a href="#about">About</a>
@@ -568,17 +568,25 @@
 
     <!-- Hero -->
     <section class="hero" id="about">
-        <div class="hero-content">
+        <div class="container">
             <div class="hero-badge">Available for opportunities</div>
-            <h1>Hi, I'm <span class="highlight">Kazi Musharraf</span></h1>
-            <p class="hero-subtitle">Full-Stack Developer & AI Automation Engineer from India. I build practical web apps, AI tools, and open source projects.</p>
-            <a href="mailto:kazimusharraf1234@gmail.com" class="hero-email">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                    <polyline points="22,6 12,13 2,6"/>
-                </svg>
-                kazimusharraf1234@gmail.com
-            </a>
+            <h1>Hi, I'm <span class="gradient">Kazi Musharraf</span></h1>
+            <p>Full-Stack Developer & AI Automation Engineer from India. I build practical web apps, AI tools, and open source projects.</p>
+            <div class="hero-actions">
+                <a href="mailto:kazimusharraf1234@gmail.com" class="btn btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    Get In Touch
+                </a>
+                <a href="https://github.com/mk-knight23" class="btn btn-glass" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.754-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+            </div>
             <div class="hero-stats">
                 <div class="stat">
                     <div class="stat-value">80+</div>
@@ -609,79 +617,79 @@
             </div>
             <div class="eco-grid">
                 <!-- 60 Projects -->
-                <div class="eco-card">
-                    <div class="number">01</div>
-                    <span class="badge">Portfolio</span>
+                <div class="eco-card glass">
+                    <div class="eco-number">01</div>
+                    <span class="eco-badge">Portfolio</span>
                     <h3>60 Projects</h3>
                     <p>Web apps, games, tools, and starter templates. A showcase of diverse development skills.</p>
                     <div class="eco-stats">
                         <div class="eco-stat">
-                            <div class="val">60</div>
-                            <div class="lbl">Projects</div>
+                            <div class="eco-stat-value">60</div>
+                            <div class="eco-stat-label">Projects</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">4</div>
-                            <div class="lbl">Categories</div>
+                            <div class="eco-stat-value">4</div>
+                            <div class="eco-stat-label">Categories</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">48</div>
-                            <div class="lbl">Deployed</div>
+                            <div class="eco-stat-value">48</div>
+                            <div class="eco-stat-label">Deployed</div>
                         </div>
                     </div>
                     <div class="eco-links">
-                        <a href="https://github.com/mk-knight23/60-Projects" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://github.com/mk-knight23/60-Projects" class="btn btn-glass" target="_blank" rel="noopener">GitHub</a>
                         <a href="https://60-projects.vercel.app" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
                     </div>
                 </div>
 
                 <!-- AI-VIBE -->
-                <div class="eco-card">
-                    <div class="number">02</div>
-                    <span class="badge">AI Agents</span>
+                <div class="eco-card glass">
+                    <div class="eco-number">02</div>
+                    <span class="eco-badge">AI Agents</span>
                     <h3>AI-VIBE</h3>
                     <p>Autonomous agents, chat interfaces, and AI-powered automation tools.</p>
                     <div class="eco-stats">
                         <div class="eco-stat">
-                            <div class="val">10</div>
-                            <div class="lbl">Projects</div>
+                            <div class="eco-stat-value">10</div>
+                            <div class="eco-stat-label">Projects</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">30+</div>
-                            <div class="lbl">LLMs</div>
+                            <div class="eco-stat-value">30+</div>
+                            <div class="eco-stat-label">LLMs</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">4</div>
-                            <div class="lbl">Types</div>
+                            <div class="eco-stat-value">4</div>
+                            <div class="eco-stat-label">Types</div>
                         </div>
                     </div>
                     <div class="eco-links">
-                        <a href="https://github.com/mk-knight23/AI-VIBE-ECOSYSTEM" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://github.com/mk-knight23/AI-VIBE-ECOSYSTEM" class="btn btn-glass" target="_blank" rel="noopener">GitHub</a>
                         <a href="https://mk-knight23.github.io/AI-VIBE-ECOSYSTEM" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
                     </div>
                 </div>
 
                 <!-- AI-SDK -->
-                <div class="eco-card">
-                    <div class="number">03</div>
-                    <span class="badge">SDK Hub</span>
+                <div class="eco-card glass">
+                    <div class="eco-number">03</div>
+                    <span class="eco-badge">SDK Hub</span>
                     <h3>AI-SDK</h3>
                     <p>Production-ready implementations of 10 major AI/ML frameworks.</p>
                     <div class="eco-stats">
                         <div class="eco-stat">
-                            <div class="val">10</div>
-                            <div class="lbl">SDKs</div>
+                            <div class="eco-stat-value">10</div>
+                            <div class="eco-stat-label">SDKs</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">25+</div>
-                            <div class="lbl">Providers</div>
+                            <div class="eco-stat-value">25+</div>
+                            <div class="eco-stat-label">Providers</div>
                         </div>
                         <div class="eco-stat">
-                            <div class="val">7</div>
-                            <div class="lbl">Stacks</div>
+                            <div class="eco-stat-value">7</div>
+                            <div class="eco-stat-label">Stacks</div>
                         </div>
                     </div>
                     <div class="eco-links">
-                        <a href="https://github.com/mk-knight23/AI-SDK-ECOSYSTEM" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://github.com/mk-knight23/AI-SDK-ECOSYSTEM" class="btn btn-glass" target="_blank" rel="noopener">GitHub</a>
                         <a href="https://mk-knight23.github.io/AI-SDK-ECOSYSTEM" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
                     </div>
                 </div>
@@ -690,97 +698,97 @@
     </section>
 
     <!-- Tech Stack -->
-    <section class="section section-alt" id="tech">
+    <section class="section tech-section" id="tech">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">🛠️ Tech Stack</h2>
                 <p class="section-desc">Technologies I work with regularly</p>
             </div>
             
-            <div class="mt-xl">
+            <div style="margin-bottom: var(--xl);">
                 <h4 style="color: var(--coral); margin-bottom: var(--md); font-size: 0.9rem;">Frontend</h4>
                 <div class="tech-grid">
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/react/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">React</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/nextdotjs/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Next.js</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/vuedotjs/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Vue</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/angular/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Angular</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/svelte/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Svelte</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/nuxt/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Nuxt</span>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-xl">
+            <div style="margin-bottom: var(--xl);">
                 <h4 style="color: var(--orange); margin-bottom: var(--md); font-size: 0.9rem;">Backend</h4>
                 <div class="tech-grid">
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/python/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Python</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/nodedotjs/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Node.js</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/golang/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Go</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/dotnet/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">.NET</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/django/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Django</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/postgresql/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">PostgreSQL</span>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-xl">
+            <div>
                 <h4 style="color: var(--teal); margin-bottom: var(--md); font-size: 0.9rem;">AI/ML</h4>
                 <div class="tech-grid">
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/openai/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">OpenAI</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/anthropic/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Anthropic</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <img src="https://cdn.simpleicons.org/google/1A1A2E" alt="" class="tech-icon">
                         <span class="tech-name">Gemini</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <span style="font-size: 20px;">🦜</span>
                         <span class="tech-name">LangChain</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <span style="font-size: 20px;">👥</span>
                         <span class="tech-name">CrewAI</span>
                     </div>
-                    <div class="tech-item">
+                    <div class="tech-item glass">
                         <span style="font-size: 20px;">🕸️</span>
                         <span class="tech-name">LangGraph</span>
                     </div>
@@ -797,42 +805,42 @@
                 <p class="section-desc">Feel free to reach out for collaborations or just a friendly hello</p>
             </div>
             <div class="contact-grid">
-                <a href="mailto:kazimusharraf1234@gmail.com" class="contact-card">
+                <a href="mailto:kazimusharraf1234@gmail.com" class="contact-card glass">
                     <div class="contact-icon">📧</div>
                     <div class="contact-info">
                         <h4>Email</h4>
                         <span>kazimusharraf1234@gmail.com</span>
                     </div>
                 </a>
-                <a href="tel:+919765490536" class="contact-card">
+                <a href="tel:+919765490536" class="contact-card glass">
                     <div class="contact-icon">📱</div>
                     <div class="contact-info">
                         <h4>Phone</h4>
                         <span>+91 97654 90536</span>
                     </div>
                 </a>
-                <a href="https://github.com/mk-knight23" class="contact-card" target="_blank" rel="noopener">
+                <a href="https://github.com/mk-knight23" class="contact-card glass" target="_blank" rel="noopener">
                     <div class="contact-icon">🐙</div>
                     <div class="contact-info">
                         <h4>GitHub</h4>
                         <span>@mk-knight23</span>
                     </div>
                 </a>
-                <a href="https://www.linkedin.com/in/kazi-musharraf-0674871a4" class="contact-card" target="_blank" rel="noopener">
+                <a href="https://www.linkedin.com/in/kazi-musharraf-0674871a4" class="contact-card glass" target="_blank" rel="noopener">
                     <div class="contact-icon">💼</div>
                     <div class="contact-info">
                         <h4>LinkedIn</h4>
                         <span>Connect</span>
                     </div>
                 </a>
-                <a href="https://kazi.bio" class="contact-card" target="_blank" rel="noopener">
+                <a href="https://kazi.bio" class="contact-card glass" target="_blank" rel="noopener">
                     <div class="contact-icon">🌐</div>
                     <div class="contact-info">
                         <h4>Portfolio</h4>
                         <span>kazi.bio</span>
                     </div>
                 </a>
-                <a href="https://twitter.com/mk_knight_23" class="contact-card" target="_blank" rel="noopener">
+                <a href="https://twitter.com/mk_knight_23" class="contact-card glass" target="_blank" rel="noopener">
                     <div class="contact-icon">🐦</div>
                     <div class="contact-info">
                         <h4>Twitter</h4>
@@ -846,7 +854,7 @@
     <!-- Footer -->
     <footer class="footer">
         <p>Built with ❤️ by <strong>Kazi Musharraf</strong> from India 🇮🇳</p>
-        <p class="mt-lg">
+        <p style="margin-top: var(--md);">
             <a href="https://github.com/mk-knight23" target="_blank" rel="noopener">View on GitHub</a>
         </p>
     </footer>
