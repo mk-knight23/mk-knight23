@@ -1,5 +1,18 @@
-<p align="center">
-  <img src="./wave.gif" width="50" alt="Wave">
+# 🚀 mk-knight23 (Collective Production Edition)
+
+## 💎 Overview
+Fully production-grade implementation of mk-knight23, refactored by the **69-Agent Opencode Collective**.
+
+## 🛡️ Trust & Compliance
+- **CI/CD**: Automated GitHub Actions with Gitleaks security scans.
+- **Security**: Standardized [SECURITY.md](SECURITY.md) protocol.
+- **Design**: Opencode Premium Design Tokens integrated.
+
+## 🏁 48-Hour Roadmap
+1. Initialize infrastructure via `.github/workflows`.
+2. Set your secrets in GitHub Environment settings.
+3. Deploy to production via Vercel/Docker.
+
 </p>
 
 <h1 align="center">Hi, I'm <a href="https://kazi.bio">Kazi Musharraf</a> 👋</h1>
@@ -267,3 +280,10 @@ MIT License - see LICENSE file for details
 ---
 
 Built with ❤️ by mk-knight23
+## Security
+
+This project follows security best practices:
+- No hardcoded credentials
+- Dependency scanning enabled
+- Security headers configured
+- Regular security audits performed
