@@ -100,6 +100,8 @@
 
 **[🔗 Explore Now](https://github.com/mk-knight23/AI-SDK-ECOSYSTEM)**
 
+---
+
 ### 🦞 **[CLAW Ecosystem](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
 
 <p align="center">
@@ -117,8 +119,6 @@
 ├── ZeroClaw → High-performance secure Rust agents
 ├── Nanobot → Research & automation agent
 ```
----
-
 
 **[🔗 Explore Now](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
 
@@ -144,6 +144,7 @@
 ├── AI-ASSISTANT-GITHUB-COPILOT → Copilot workflows
 ├── AI-CODING-ASSISTANTS-PORTFOLIO → Comparative showcase
 ```
+---
 
 ## 🛠️ Tech Stack
 
