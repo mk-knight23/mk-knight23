@@ -30,7 +30,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-60-blue?style=for-the-badge" alt="60 Projects">
-  <img src="https://img.shields.io/badge/Categories-4-purple?style=for-the-badge" alt="4 Categories">
+  <img src="https://img.shields.io/badge/Categories-4-purple?style=for-the-badge" alt="5 Categories">
   <img src="https://img.shields.io/badge/Live-100%25-success?style=for-the-badge" alt="100% Live">
   <a href="https://60projects.dev"><img src="https://img.shields.io/badge/Live_Demo-60projects.dev-00C896?style=for-the-badge" alt="Live Demo"></a>
 </p>
@@ -39,6 +39,7 @@
 
 ```
 📦 60 Projects → 4 Categories → Multi-Platform Deployments
+├── Portfolio(8)     → Full Stack , Frontend , backend , AI , BUilder 
 ├── Web Projects (16)     → React 19, Vue 3, Angular, Next.js
 ├── Games (10)            → Canvas, Arcade, Multiplayer
 ├── Tools (10)            → Firebase, React Components
@@ -99,7 +100,50 @@
 
 **[🔗 Explore Now](https://github.com/mk-knight23/AI-SDK-ECOSYSTEM)**
 
+### 🦞 **[CLAW Ecosystem](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Agents-5+-red?style=for-the-badge" alt="Agents">
+  <img src="https://img.shields.io/badge/Focus-Swarm%20AI-black?style=for-the-badge" alt="Swarm AI">
+  <img src="https://img.shields.io/badge/Architecture-Distributed-blue?style=for-the-badge" alt="Architecture">
+</p>
+
+```
+**Advanced multi-agent architecture with swarm intelligence and distributed systems**
+🦞 CLAW → Multi-Agent Architecture Ecosystem
+├── OpenClaw → Core orchestration engine (RALPH protocol)
+├── NanoClaw → Swarm intelligence agents (collective reasoning)
+├── PicoClaw → Edge / IoT lightweight agents
+├── ZeroClaw → High-performance secure Rust agents
+├── Nanobot → Research & automation agent
+```
 ---
+
+
+**[🔗 Explore Now](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
+
+---
+
+### ⚡ **[AI Tooling & Research Ecosystem](https://github.com/mk-knight23/AGENTS-COLLECTION)**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Agents-700+-blue?style=for-the-badge" alt="Agents">
+  <img src="https://img.shields.io/badge/Skills-700+-purple?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Focus-Research-orange?style=for-the-badge" alt="Research">
+</p>
+
+**Deep research into AI agents, coding assistants, and developer tooling ecosystems**
+
+```
+⚡ Tooling → AI Knowledge & Benchmarking Layer
+├── AGENTS-COLLECTION → 700+ agents, skills, prompts
+├── AI-ASSISTANT-CLAUDE → Claude Code deep-dive
+├── AI-ASSISTANT-CURSOR → Cursor IDE workflows
+├── AI-ASSISTANT-ANTIGRAVITY → Google Antigravity IDE
+├── AI-ASSISTANT-OPENCODE → Terminal agent systems
+├── AI-ASSISTANT-GITHUB-COPILOT → Copilot workflows
+├── AI-CODING-ASSISTANTS-PORTFOLIO → Comparative showcase
+```
 
 ## 🛠️ Tech Stack
 
