@@ -2,15 +2,18 @@
   <img src="./wave.gif" width="50" alt="Wave">
 </p>
 
-<h1 align="center">Hi, I'm <a href="https://kazi.bio">Kazi Musharraf</a> 👋</h1>
+<h1 align="center">Hi, I'm <a href="https://mkazi.live">Kazi Musharraf</a> 👋</h1>
+
+<p align="center"><strong>AI Engineer · AI Agents · LLM Applications · Full-Stack Development · Open-Source Developer Tools</strong></p>
+<p align="center">Also known as Musharraf Ateeque Kazi, Musharraf Kazi and MK Knight · Former Wipro Project Engineer · India-based independent builder</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack%20Developer;AI%20Automation%20Engineer;Open%20Source%20Maintainer;Building%20the%20Future%20of%20AI&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=AI%20Engineer;AI%20Agents%20Developer;Full-Stack%20Developer;Building%20the%20Future%20of%20AI&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45">
 </p>
 
 <p align="center">
-  <a href="https://kazi.bio">
-    <img src="https://img.shields.io/badge/Portfolio-kazi.bio-00C896?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio">
+  <a href="https://mkazi.live">
+    <img src="https://img.shields.io/badge/Portfolio-mkazi.live-00C896?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio">
   </a>
   <img src="https://img.shields.io/badge/Status-Available%20for%20Hire-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Location-India-orange?style=for-the-badge&logoColor=white" alt="Location">
@@ -239,7 +242,7 @@
   <a href="mailto:contact@kazi.bio">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://kazi.bio">
+  <a href="https://mkazi.live">
     <img src="https://img.shields.io/badge/Portfolio-00C896?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio">
   </a>
 </p>
