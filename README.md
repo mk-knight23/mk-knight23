@@ -31,7 +31,7 @@
 
 Kazi Musharraf is an India-based AI Engineer and Full-Stack Developer, also known as Musharraf Ateeque Kazi and `mk-knight23`. I build AI agents, LLM applications, developer tools and web products, and work remotely from India.
 
-- [Biography and professional background](https://mkazi.live/about)
+- [Biography and professional background](https://devtools.mkazi.live/about.html)
 - [Portfolio](https://mkazi.live/)
 - [LinkedIn](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
 - Previous role: Project Engineer, Wipro Technologies, July 2022–July 2025; Project Intern, February–July 2022.
