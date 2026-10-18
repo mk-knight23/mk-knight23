@@ -27,6 +27,17 @@
 
 ---
 
+## Professional profile
+
+Kazi Musharraf is an India-based AI Engineer and Full-Stack Developer, also known as Musharraf Ateeque Kazi and `mk-knight23`. I build AI agents, LLM applications, developer tools and web products, and work remotely from India.
+
+- [Biography and professional background](https://mkazi.live/about)
+- [Portfolio](https://mkazi.live/)
+- [LinkedIn](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+- Previous role: Project Engineer, Wipro Technologies, July 2022–July 2025; Project Intern, February–July 2022.
+
+<img src="./kazi-musharraf.jpg" width="180" height="180" alt="Kazi Musharraf — AI Engineer and Full-Stack Developer from India">
+
 ## 🌟 Featured Ecosystems
 
 ### 🚀 **[60 Projects Ecosystem](https://github.com/mk-knight23/60-Projects)**
@@ -210,7 +221,7 @@
 
 ## 🎯 About Me
 
-- 💻 **Full-Stack Developer** with 6+ years of experience building scalable web applications
+- 💻 **Full-Stack Developer** building web applications, with Project Engineer experience at Wipro Technologies (July 2022–July 2025)
 - 🤖 **AI Automation Engineer** specializing in autonomous agents and LLM integrations
 - 🌱 **Continuous Learner** always exploring new technologies and AI frameworks
 - 🎯 **2026 Goals**: Building production-ready AI applications and contributing to open source
@@ -233,13 +244,13 @@
   <a href="https://twitter.com/mk_knight_23">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
   </a>
-  <a href="https://linkedin.com/in/mk-knight-1373271b8">
+  <a href="https://www.linkedin.com/in/kazi-musharraf-0674871a4">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://instagram.com/kazi_musharraf_01">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
-  <a href="mailto:contact@kazi.bio">
+  <a href="mailto:kazimusharraf1234@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://mkazi.live">
