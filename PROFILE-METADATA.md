@@ -11,7 +11,7 @@ Use this factual reference when updating public profiles. Do not infer years of 
 - Former role: Project Engineer at Wipro Technologies, July 2022–July 2025
 - Internship: Wipro Technologies, February–July 2022
 - Portfolio: https://mkazi.live/
-- Biography: https://devtools.mkazi.live/about.html
+- Biography: https://devtools.mkazi.live/about
 - GitHub: https://github.com/mk-knight23
 - LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
 - Email: kazimusharraf1234@gmail.com
