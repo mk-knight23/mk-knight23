@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">Kazi Musharraf — AI Engineer and independent builder</title>
+<desc id="desc">India-based. AI applications, developer tools and full-stack products. Discover, build, verify, handover.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d36"/><stop offset="1" stop-color="#0b101b"/></linearGradient><linearGradient id="line"><stop stop-color="#9bafff"/><stop offset="1" stop-color="#80e2ca"/></linearGradient></defs>
+<rect width="960" height="260" rx="22" fill="url(#bg)"/>
+<g fill="none" stroke="#273952"><circle cx="879" cy="70" r="115"/><circle cx="879" cy="70" r="83"/><circle cx="879" cy="70" r="51"/></g>
+<g font-family="ui-monospace,monospace"><text x="40" y="43" fill="#80e2ca" font-size="12" letter-spacing="2">INDIA / REMOTE / BUILDING WITH AI</text><text x="40" y="98" fill="#f4f7ff" font-size="36" font-weight="700">Kazi Musharraf</text><text x="40" y="132" fill="#c6d2e7" font-size="17">AI applications · Developer tools · Full-stack products</text>
+<path d="M42 185H914" stroke="#344967" stroke-width="2"/>
+<path class="signal" d="M42 185H914" stroke="url(#line)" stroke-width="3" stroke-dasharray="120 752"/>
+<g fill="#aabcff" font-size="13"><text x="40" y="223">01 DISCOVER</text><text x="280" y="223">02 BUILD</text><text x="520" y="223">03 VERIFY</text><text x="754" y="223">04 HANDOVER</text></g>
+<g fill="#80e2ca"><circle cx="42" cy="185" r="5"/><circle cx="282" cy="185" r="5"/><circle cx="522" cy="185" r="5"/><circle cx="756" cy="185" r="5"/></g></g>
+<style>.signal{animation:trace 6s linear infinite}@keyframes trace{to{stroke-dashoffset:-872}}@media(prefers-reduced-motion:reduce){.signal{animation:none;stroke-dasharray:none}}</style>
+</svg>

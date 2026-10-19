@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-19T12:51:31+00:00",
+  "scope": "five selected public repositories",
+  "projects": [
+    {
+      "name": "MK-QuizFlow",
+      "full_name": "mk-knight23/MK-QuizFlow",
+      "language": "TypeScript",
+      "stargazers_count": 8,
+      "forks_count": 1,
+      "pushed_at": "2026-07-27T10:05:42Z",
+      "html_url": "https://github.com/mk-knight23/MK-QuizFlow",
+      "private": false
+    },
+    {
+      "name": "AI-ASSISTANTS-ECOSYSTEM",
+      "full_name": "mk-knight23/AI-ASSISTANTS-ECOSYSTEM",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-10-19T09:28:11Z",
+      "html_url": "https://github.com/mk-knight23/AI-ASSISTANTS-ECOSYSTEM",
+      "private": false
+    },
+    {
+      "name": "AI-ASSISTANT-OPENCODE",
+      "full_name": "mk-knight23/AI-ASSISTANT-OPENCODE",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "pushed_at": "2026-10-19T09:28:09Z",
+      "html_url": "https://github.com/mk-knight23/AI-ASSISTANT-OPENCODE",
+      "private": false
+    },
+    {
+      "name": "AI-SDK-ANTHROPIC",
+      "full_name": "mk-knight23/AI-SDK-ANTHROPIC",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-05-07T20:10:55Z",
+      "html_url": "https://github.com/mk-knight23/AI-SDK-ANTHROPIC",
+      "private": false
+    },
+    {
+      "name": "mkazi-time-router",
+      "full_name": "mk-knight23/mkazi-time-router",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-10-19T10:24:22Z",
+      "html_url": "https://github.com/mk-knight23/mkazi-time-router",
+      "private": false
+    }
+  ]
+}
