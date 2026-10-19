@@ -1,279 +1,35 @@
-<p align="center">
-  <img src="./wave.gif" width="50" alt="Wave">
-</p>
+# Kazi Musharraf
 
-<h1 align="center">Hi, I'm <a href="https://mkazi.live">Kazi Musharraf</a> 👋</h1>
+AI Engineer & Full-Stack Developer based in India. Also known as Musharraf Ateeque Kazi, Musharraf Kazi and MK Knight.
 
-<p align="center"><strong>AI Engineer · AI Agents · LLM Applications · Full-Stack Development · Open-Source Developer Tools</strong></p>
-<p align="center">Also known as Musharraf Ateeque Kazi, Musharraf Kazi and MK Knight · Former Wipro Project Engineer · India-based independent builder</p>
+I build AI agents, LLM applications, developer tools and web products using TypeScript, Python, React, Next.js, Node.js and PostgreSQL. I use Codex, Claude Code and Cursor alongside software engineering practices.
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=AI%20Engineer;AI%20Agents%20Developer;Full-Stack%20Developer;Building%20the%20Future%20of%20AI&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45">
-</p>
+Open to **remote AI Engineer roles**, international client projects and consulting discussions in **USD or AED**. Share your problem, stack, expected deliverables, timeline and budget.
 
-<p align="center">
-  <a href="https://mkazi.live">
-    <img src="https://img.shields.io/badge/Portfolio-mkazi.live-00C896?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio">
-  </a>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Hire-success?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Location-India-orange?style=for-the-badge&logoColor=white" alt="Location">
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mk-knight23&style=for-the-badge&color=58a6ff" alt="Profile Views">
-  <img src="https://badges.pufler.dev/visits/mk-knight23/mk-knight23?style=for-the-badge" alt="Visitors">
-  <img src="https://badges.pufler.dev/years/mk-knight23?style=for-the-badge" alt="Years">
-</p>
-
----
-
-## Professional profile
-
-Kazi Musharraf is an India-based AI Engineer and Full-Stack Developer, also known as Musharraf Ateeque Kazi and `mk-knight23`. I build AI agents, LLM applications, developer tools and web products, and work remotely from India.
-
-- [Biography and professional background](https://devtools.mkazi.live/about.html)
-- [Portfolio](https://mkazi.live/)
+- [Email](mailto:kazimusharraf1234@gmail.com)
+- [AI engineering portfolio](https://devtools.mkazi.live/)
+- [Professional biography](https://devtools.mkazi.live/about)
+- [Consulting](https://devtools.mkazi.live/consulting)
 - [LinkedIn](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
-- Previous role: Project Engineer, Wipro Technologies, July 2022–July 2025; Project Intern, February–July 2022.
 
-<img src="./kazi-musharraf.jpg" width="180" height="180" alt="Kazi Musharraf — AI Engineer and Full-Stack Developer from India">
+## Professional background
 
-## 🌟 Featured Ecosystems
+Project Engineer, Wipro Technologies, July 2022–July 2025. Previously Project Intern, February–July 2022. Enterprise application experience in banking and fintech, including Citibank ICG and HSBC client assignments.
 
-### 🚀 **[60 Projects Ecosystem](https://github.com/mk-knight23/60-Projects)**
+B.Tech in Computer Science & Engineering, M.S. Bidve Engineering College, Latur, 2018–2022.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Projects-60-blue?style=for-the-badge" alt="60 Projects">
-  <img src="https://img.shields.io/badge/Categories-4-purple?style=for-the-badge" alt="5 Categories">
-  <img src="https://img.shields.io/badge/Live-100%25-success?style=for-the-badge" alt="100% Live">
-  <a href="https://60projects.dev"><img src="https://img.shields.io/badge/Live_Demo-60projects.dev-00C896?style=for-the-badge" alt="Live Demo"></a>
-</p>
+## Selected work
 
-**Production-ready portfolio covering Web Apps, Games, Tools, and Starters**
+| Project | What to review |
+| --- | --- |
+| [MK QuizFlow](https://github.com/mk-knight23/MK-QuizFlow) | Browser-based study app; [live site](https://www.thequizflow.com/) |
+| [AI assistant workflows](https://github.com/mk-knight23/AI-ASSISTANTS-ECOSYSTEM) | Coding agent configurations, skills and workflow documentation |
+| [OpenCode showcase](https://github.com/mk-knight23/AI-ASSISTANT-OPENCODE) | Agent instructions and workflow examples |
+| [AI SDK Anthropic](https://github.com/mk-knight23/AI-SDK-ANTHROPIC) | Python agent routing and SDK adapter experiments; see README for current limits |
+| [Portfolio time router](https://github.com/mk-knight23/mkazi-time-router) | Portfolio routing, profile endpoints and tests |
 
-```
-📦 60 Projects → 4 Categories → Multi-Platform Deployments
-├── Portfolio(8)     → Full Stack , Frontend , backend , AI , BUilder 
-├── Web Projects (16)     → React 19, Vue 3, Angular, Next.js
-├── Games (10)            → Canvas, Arcade, Multiplayer
-├── Tools (10)            → Firebase, React Components
-└── Starter Templates (16) → Ready-to-use scaffolds
-```
+## Portfolio network
 
-**[🔗 Explore Now](https://github.com/mk-knight23/60-Projects)**
+[AI engineering](https://devtools.mkazi.live/) · [Full-stack](https://fullstack.mkazi.live/) · [Frontend](https://frontend.mkazi.live/) · [Backend](https://backend.mkazi.live/) · [AI interfaces](https://ai.mkazi.live/)
 
----
-
-### 🤖 **[AI-VIBE Ecosystem](https://github.com/mk-knight23/AI-VIBE-ECOSYSTEM)**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Projects-10-blueviolet?style=for-the-badge" alt="10 Projects">
-  <img src="https://img.shields.io/badge/LLMs-30+-ff69b4?style=for-the-badge" alt="30+ LLMs">
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents-orange?style=for-the-badge" alt="AI Agents">
-  <a href="https://ai-vibe.pages.dev"><img src="https://img.shields.io/badge/Live_Demo-ai--vibe.pages.dev-00C896?style=for-the-badge" alt="Live Demo"></a>
-</p>
-
-**Autonomous agents, modern chat interfaces, and intelligent automation tools**
-
-```
-🤖 AI-VIBE → 10 AI Projects → 30+ LLM Providers
-├── AI Automation (2)     → Workflow engines, multi-agent systems
-├── Chat Interfaces (4)   → Nuxt, Svelte, Next.js chat apps
-├── CLI Tools (2)         → Python & TypeScript AI assistants
-└── Website Builders (2)  → AI-powered code generation
-```
-
-**[🔗 Explore Now](https://github.com/mk-knight23/AI-VIBE-ECOSYSTEM)**
-
----
-
-### 🧠 **[AI-SDK Ecosystem](https://github.com/mk-knight23/AI-SDK-ECOSYSTEM)**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SDKs-10-7c3aed?style=for-the-badge" alt="10 SDKs">
-  <img src="https://img.shields.io/badge/Providers-25+-06b6d4?style=for-the-badge" alt="25+ Providers">
-  <img src="https://img.shields.io/badge/Stacks-10-f59e0b?style=for-the-badge" alt="10 Stacks">
-  <a href="https://mk-knight23.github.io/AI-SDK-ECOSYSTEM/"><img src="https://img.shields.io/badge/Live_Demo-GitHub%20Pages-00C896?style=for-the-badge" alt="Live Demo"></a>
-</p>
-
-**Production-ready implementations of 10 major AI/ML SDK frameworks**
-
-```
-🧠 AI-SDK → 10 Frameworks → Independent Repositories
-├── LangChain           → Next.js + FastAPI
-├── CrewAI              → React 19 + FastAPI
-├── LangGraph           → SvelteKit + Node.js
-├── AutoGen             → Vue 3 + .NET 9
-├── OpenAI              → Angular 19 + Go
-├── Vercel AI SDK       → Next.js 15 RSC
-├── Anthropic Claude    → Remix + FastAPI
-├── Haystack            → Nuxt 3 + Django
-├── Semantic Kernel     → Astro 5 + Flask
-└── LlamaIndex          → T3 Stack + FastAPI
-```
-
-**[🔗 Explore Now](https://github.com/mk-knight23/AI-SDK-ECOSYSTEM)**
-
----
-
-### 🦞 **[CLAW Ecosystem](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Agents-5+-red?style=for-the-badge" alt="Agents">
-  <img src="https://img.shields.io/badge/Focus-Swarm%20AI-black?style=for-the-badge" alt="Swarm AI">
-  <img src="https://img.shields.io/badge/Architecture-Distributed-blue?style=for-the-badge" alt="Architecture">
-</p>
-
-```
-**Advanced multi-agent architecture with swarm intelligence and distributed systems**
-🦞 CLAW → Multi-Agent Architecture Ecosystem
-├── OpenClaw → Core orchestration engine (RALPH protocol)
-├── NanoClaw → Swarm intelligence agents (collective reasoning)
-├── PicoClaw → Edge / IoT lightweight agents
-├── ZeroClaw → High-performance secure Rust agents
-├── Nanobot → Research & automation agent
-```
-
-**[🔗 Explore Now](https://github.com/mk-knight23/AI-CLAW-ECOSYSTEM)**
-
----
-
-### ⚡ **[AI Tooling & Research Ecosystem](https://github.com/mk-knight23/AGENTS-COLLECTION)**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Agents-700+-blue?style=for-the-badge" alt="Agents">
-  <img src="https://img.shields.io/badge/Skills-700+-purple?style=for-the-badge" alt="Skills">
-  <img src="https://img.shields.io/badge/Focus-Research-orange?style=for-the-badge" alt="Research">
-</p>
-
-**Deep research into AI agents, coding assistants, and developer tooling ecosystems**
-
-```
-⚡ Tooling → AI Knowledge & Benchmarking Layer
-├── AGENTS-COLLECTION → 700+ agents, skills, prompts
-├── AI-ASSISTANT-CLAUDE → Claude Code deep-dive
-├── AI-ASSISTANT-CURSOR → Cursor IDE workflows
-├── AI-ASSISTANT-ANTIGRAVITY → Google Antigravity IDE
-├── AI-ASSISTANT-OPENCODE → Terminal agent systems
-├── AI-ASSISTANT-GITHUB-COPILOT → Copilot workflows
-├── AI-CODING-ASSISTANTS-PORTFOLIO → Comparative showcase
-```
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vue,angular,nextjs,nuxt,svelte" alt="Frontend">
-  <img src="https://skillicons.dev/icons?i=python,nodejs,typescript,go,dotnet" alt="Backend">
-  <img src="https://skillicons.dev/icons?i=django,fastapi,flask" alt="Python Frameworks">
-  <img src="https://skillicons.dev/icons?i=tailwind,mui,graphql" alt="Tools">
-</p>
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=00DC82)
-
-### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-### AI/ML
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-713f99?style=for-the-badge&logo=anthropic&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3B28?style=for-the-badge&logo=langchain&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&count_private=true&show_icons=true&theme=radical&include_all_commits=true&hide_border=true">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&layout=compact&langs_count=8&theme=radical&hide_border=true">
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mk-knight23&theme=radical&hide_border=true" alt="Profile Details">
-</p>
-
-<p align="center">
-  <img width=800 src="https://github-profile-trophy.vercel.app/?username=mk-knight23&column=8&theme=radical&no-frame=true&no-bg=true&margin-w=10" alt="Trophies">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mk-knight23&theme=radical&hide_border=true" alt="Streak Stats">
-</p>
-
----
-
-## 🎯 About Me
-
-- 💻 **Full-Stack Developer** building web applications, with Project Engineer experience at Wipro Technologies (July 2022–July 2025)
-- 🤖 **AI Automation Engineer** specializing in autonomous agents and LLM integrations
-- 🌱 **Continuous Learner** always exploring new technologies and AI frameworks
-- 🎯 **2026 Goals**: Building production-ready AI applications and contributing to open source
-- ⚡ **Fun Fact**: I love watching movies, series, and exploring new cuisines!
-
----
-
-## 🏆 Achievements
-
-- 📦 **80+ Production Projects** across web, mobile, and AI
-- 🤖 **3 Complete Ecosystems** showcasing different aspects of modern development
-- 🌐 **Multi-Platform Deployments** across 6+ cloud platforms
-- 📚 **Open Source Contributor** maintaining active projects
-
----
-
-## 📬 Let's Connect
-
-<p align="center">
-  <a href="https://twitter.com/mk_knight_23">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-  <a href="https://www.linkedin.com/in/kazi-musharraf-0674871a4">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://instagram.com/kazi_musharraf_01">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="mailto:kazimusharraf1234@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://mkazi.live">
-    <img src="https://img.shields.io/badge/Portfolio-00C896?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio">
-  </a>
-</p>
-
----
-
-<div align="center">
-
-### ⭐ Star Some Repositories
-
-If you find my work useful, consider giving a star to the repositories you like! Your support means a lot to me.
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=mk-knight23&left_text=Profile%20Views&color=58a6ff)
-
-**💬 Feedback and suggestions are always welcome!**
-
-</div>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mk-knight23/github-profile-readme-generator/master/src/images/icons/footer_wave.png" alt="Wave" width="100%">
-</p>
+Repository examples demonstrate implementation choices; they are not claims of client adoption, revenue or measured business outcomes.
