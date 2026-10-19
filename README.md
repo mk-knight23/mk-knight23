@@ -1,5 +1,9 @@
 # Kazi Musharraf
 
+[![Kazi Musharraf — AI applications, developer tools and full-stack products](assets/engineering-loop.svg)](https://devtools.mkazi.live/explore)
+
+**[Explore my work](https://devtools.mkazi.live/explore) · [Inspect case studies](https://devtools.mkazi.live/case-studies) · [Discuss a role](https://devtools.mkazi.live/hire) · [Scope a project](https://devtools.mkazi.live/consulting)**
+
 AI Engineer & Full-Stack Developer based in India. Also known as Musharraf Ateeque Kazi, Musharraf Kazi and MK Knight.
 
 I build AI agents, LLM applications, developer tools and web products using TypeScript, Python, React, Next.js, Node.js and PostgreSQL. I use Codex, Claude Code and Cursor alongside software engineering practices.
@@ -61,3 +65,28 @@ I’m also exploring **remote Forward Deployed AI Engineer and AI Consultant** o
 Previous independent work includes US client engagements. I welcome remote collaboration with US, UK, UAE and Indian teams from my India base. City coverage describes offered remote service markets, not overseas offices or work authorization.
 
 [AI toolkit](https://devtools.mkazi.live/ai-tools) · [Forward-deployed approach](https://devtools.mkazi.live/forward-deployed-engineer) · [AI consulting](https://devtools.mkazi.live/ai-consultant) · [Global collaboration](https://devtools.mkazi.live/global-collaboration) · [FAQ](https://devtools.mkazi.live/faq)
+
+## Public project pulse
+
+<!-- PROJECT-SNAPSHOT:START -->
+Public repository snapshot · checked 2026-10-19 UTC.
+
+| Repository | Main language | Stars | Last pushed (UTC) |
+| --- | --- | ---: | --- |
+| [MK-QuizFlow](https://github.com/mk-knight23/MK-QuizFlow) | TypeScript | 8 | 2026-07-27 |
+| [AI-ASSISTANTS-ECOSYSTEM](https://github.com/mk-knight23/AI-ASSISTANTS-ECOSYSTEM) | HTML | 0 | 2026-10-19 |
+| [AI-ASSISTANT-OPENCODE](https://github.com/mk-knight23/AI-ASSISTANT-OPENCODE) | HTML | 0 | 2026-10-19 |
+| [AI-SDK-ANTHROPIC](https://github.com/mk-knight23/AI-SDK-ANTHROPIC) | Python | 0 | 2026-05-07 |
+| [mkazi-time-router](https://github.com/mk-knight23/mkazi-time-router) | TypeScript | 0 | 2026-10-19 |
+
+Repository metadata is a dated snapshot, not a measure of engineering quality, employment or client adoption.
+<!-- PROJECT-SNAPSHOT:END -->
+
+<details>
+<summary>How this profile updates, and where the design ideas came from</summary>
+
+The weekly workflow reads metadata for five selected public repositories and updates only the marked block and a local JSON snapshot. A failed request preserves the previous evidence. The banner is an original SVG served from this repository; its animation respects reduced motion.
+
+Inspired by [Simon Willison’s self-updating profile](https://github.com/simonw/simonw), [DenverCoder1’s project grouping](https://github.com/DenverCoder1/DenverCoder1), and the [Awesome GitHub Profile README directory](https://github.com/abhisheknaiidu/awesome-github-profile-readme). See the [repository-by-repository review](docs/profile-reference-review.md).
+
+</details>

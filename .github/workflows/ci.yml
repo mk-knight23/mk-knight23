@@ -15,4 +15,6 @@ jobs:
         with:
           node-version: '22'
       - name: Validate static portfolio
-        run: node --test test/portfolio.test.cjs
+        run: |
+          node --test test/*.test.cjs
+          python3 -m unittest discover -s test -p 'test_*.py'
