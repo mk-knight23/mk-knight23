@@ -1,8 +1,20 @@
-# Kazi Musharraf
+# Kazi Musharraf — public professional profile
 
-AI Engineer and Full-Stack Developer based in India. Former Wipro Project Engineer (July 2022–July 2025). Also known as Musharraf Ateeque Kazi and mk-knight23.
+India-based AI Engineer, full-stack developer and independent builder. Former Wipro Project Engineer, July 2022–July 2025. Previous independent US client engagements. Seeking eligible remote engineering roles and scoped freelance/consulting work. UAE and city references describe offered service markets, not offices or claimed client locations.
 
-- Biography: https://devtools.mkazi.live/about
-- Portfolio: https://mkazi.live/
-- GitHub: https://github.com/mk-knight23
-- LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
+AI toolkit: Claude Code, Codex, Cursor, ChatGPT, Claude, Gemini. Application stack: TypeScript, JavaScript, Python, React, Next.js, Node.js, SQL. Framework experiments and learning areas are labelled on the skills page; do not infer expertise in every mentioned tool.
+
+About: https://devtools.mkazi.live/about
+Skills: https://devtools.mkazi.live/skills
+AI tools: https://devtools.mkazi.live/ai-tools
+Work: https://devtools.mkazi.live/case-studies
+Roles: https://devtools.mkazi.live/remote-ai-engineer
+Consulting: https://devtools.mkazi.live/ai-consultant
+Contact: https://devtools.mkazi.live/contact
+Forward-deployed approach: https://devtools.mkazi.live/forward-deployed-engineer
+Global collaboration: https://devtools.mkazi.live/global-collaboration
+FAQ: https://devtools.mkazi.live/faq
+Public profile JSON: https://devtools.mkazi.live/profile.json
+Email: kazimusharraf1234@gmail.com
+
+No first-place ranking, production-scale outcome, or indexing guarantee is asserted.

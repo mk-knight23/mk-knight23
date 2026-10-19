@@ -51,3 +51,13 @@ I’m seeking **AI Engineer, Applied AI Engineer, Full-Stack AI Engineer and Dev
 I also take on scoped **freelance development and consulting**: AI feature integration, React/Next.js applications, APIs, developer workflow setup and technical discovery. USD and AED project discussions are welcome. Availability, working-hour overlap, confidentiality and any parallel commitments are agreed before starting.
 
 [Discuss a remote role](https://devtools.mkazi.live/hire) · [Discuss a client project](https://devtools.mkazi.live/consulting) · [Email your brief](mailto:kazimusharraf1234@gmail.com)
+
+## AI-native tools and implementation direction
+
+My workflow includes **Claude Code, OpenAI Codex, Cursor, ChatGPT, Claude and Gemini**, combined with code review, tests and deployment checks. Public workflow repositories cover OpenCode, GitHub Copilot and related assistants. SDK/framework experiments are labelled separately from shipped product features.
+
+I’m also exploring **remote Forward Deployed AI Engineer and AI Consultant** opportunities: understand the workflow, scope a useful outcome, build a demonstrable version, verify behavior and document handover. This describes a delivery direction, not a previous formal FDE job title.
+
+Previous independent work includes US client engagements. I welcome remote collaboration with US, UK, UAE and Indian teams from my India base. City coverage describes offered remote service markets, not overseas offices or work authorization.
+
+[AI toolkit](https://devtools.mkazi.live/ai-tools) · [Forward-deployed approach](https://devtools.mkazi.live/forward-deployed-engineer) · [AI consulting](https://devtools.mkazi.live/ai-consultant) · [Global collaboration](https://devtools.mkazi.live/global-collaboration) · [FAQ](https://devtools.mkazi.live/faq)
