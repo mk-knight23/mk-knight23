@@ -33,3 +33,21 @@ B.Tech in Computer Science & Engineering, M.S. Bidve Engineering College, Latur,
 [AI engineering](https://devtools.mkazi.live/) · [Full-stack](https://fullstack.mkazi.live/) · [Frontend](https://frontend.mkazi.live/) · [Backend](https://backend.mkazi.live/) · [AI interfaces](https://ai.mkazi.live/)
 
 Repository examples demonstrate implementation choices; they are not claims of client adoption, revenue or measured business outcomes.
+
+## Skills & engineering approach
+
+- **Application engineering:** TypeScript, JavaScript, Python, Java, SQL; React, Next.js and Node.js.
+- **AI applications:** model API integration, Vercel AI SDK, structured generation, prompt design and explicit fallback states, demonstrated in QuizFlow.
+- **Developer workflows:** agent instructions, reusable skills and AI-assisted coding with Codex, Claude Code, Cursor and OpenCode.
+- **Python experiments:** FastAPI contracts, mission routing, CLI runners, LangChain prompt composition and Anthropic client initialization. See each README for implementation limits.
+- **Delivery:** Git, GitHub Actions, tests, Vercel and Cloudflare. My broader web stack includes PostgreSQL, Supabase and Prisma.
+
+[Skills with source evidence](https://devtools.mkazi.live/skills) · [Engineering case studies](https://devtools.mkazi.live/case-studies)
+
+## Work with me
+
+I’m seeking **AI Engineer, Applied AI Engineer, Full-Stack AI Engineer and Developer Tools Engineer** roles that accept India-based applicants. I welcome US, UK and UAE teams that can engage engineers remotely from India.
+
+I also take on scoped **freelance development and consulting**: AI feature integration, React/Next.js applications, APIs, developer workflow setup and technical discovery. USD and AED project discussions are welcome. Availability, working-hour overlap, confidentiality and any parallel commitments are agreed before starting.
+
+[Discuss a remote role](https://devtools.mkazi.live/hire) · [Discuss a client project](https://devtools.mkazi.live/consulting) · [Email your brief](mailto:kazimusharraf1234@gmail.com)
