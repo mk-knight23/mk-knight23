@@ -18,3 +18,9 @@ Public profile JSON: https://devtools.mkazi.live/profile.json
 Email: kazimusharraf1234@gmail.com
 
 No first-place ranking, production-scale outcome, or indexing guarantee is asserted.
+
+Agent guide: https://mkazi.live/agents
+Public evidence: https://mkazi.live/api/portfolio
+Public MCP: https://mkazi.live/mcp
+Markdown: https://mkazi.live/portfolio.md
+OpenAPI: https://mkazi.live/openapi.json
