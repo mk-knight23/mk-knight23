@@ -32,6 +32,16 @@ B.Tech in Computer Science & Engineering, M.S. Bidve Engineering College, Latur,
 | [AI SDK Anthropic](https://github.com/mk-knight23/AI-SDK-ANTHROPIC) | Python agent routing and SDK adapter experiments; see README for current limits |
 | [Portfolio time router](https://github.com/mk-knight23/mkazi-time-router) | Portfolio routing, profile endpoints and tests |
 
+## Explore with an AI assistant
+
+My portfolio exposes four read-only tools: public profile, project search, project detail and an unsent discussion brief. Results link to original evidence and explain implementation limits.
+
+- [Agent connection guide](https://mkazi.live/agents)
+- Remote MCP endpoint: `https://mkazi.live/mcp`
+- [Public catalog](https://mkazi.live/api/portfolio) · [Markdown profile](https://mkazi.live/portfolio.md) · [OpenAPI](https://mkazi.live/openapi.json)
+
+A compatible MCP client can retrieve these public facts. Connecting tools does not guarantee recommendations or search ranking. Briefs remain drafts; nothing is sent or agreed automatically.
+
 ## Portfolio network
 
 [AI engineering](https://devtools.mkazi.live/) · [Full-stack](https://fullstack.mkazi.live/) · [Frontend](https://frontend.mkazi.live/) · [Backend](https://backend.mkazi.live/) · [AI interfaces](https://ai.mkazi.live/)
