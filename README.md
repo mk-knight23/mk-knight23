@@ -79,7 +79,7 @@ Previous independent work includes US client engagements. I welcome remote colla
 ## Public project pulse
 
 <!-- PROJECT-SNAPSHOT:START -->
-Public repository snapshot · checked 2026-11-02 UTC.
+Public repository snapshot · checked 2026-11-09 UTC.
 
 | Repository | Main language | Stars | Last pushed (UTC) |
 | --- | --- | ---: | --- |
@@ -87,7 +87,7 @@ Public repository snapshot · checked 2026-11-02 UTC.
 | [AI-ASSISTANTS-ECOSYSTEM](https://github.com/mk-knight23/AI-ASSISTANTS-ECOSYSTEM) | HTML | 0 | 2026-10-19 |
 | [AI-ASSISTANT-OPENCODE](https://github.com/mk-knight23/AI-ASSISTANT-OPENCODE) | HTML | 0 | 2026-10-19 |
 | [AI-SDK-ANTHROPIC](https://github.com/mk-knight23/AI-SDK-ANTHROPIC) | Python | 0 | 2026-05-07 |
-| [mkazi-time-router](https://github.com/mk-knight23/mkazi-time-router) | TypeScript | 0 | 2026-10-20 |
+| [mkazi-time-router](https://github.com/mk-knight23/mkazi-time-router) | TypeScript | 0 | 2026-11-09 |
 
 Repository metadata is a dated snapshot, not a measure of engineering quality, employment or client adoption.
 <!-- PROJECT-SNAPSHOT:END -->
